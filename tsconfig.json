@@ -22,11 +22,6 @@
       "@/styles/*": ["styles/*"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "components/Input.release.jsx"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Input.jsx"],
   "exclude": ["node_modules"]
 }

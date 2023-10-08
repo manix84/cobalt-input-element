@@ -83,7 +83,6 @@ export const Input = ({
    * Handle the Right Arrow being pressed.
    * Move 1 character right, unless at the end of the input.
    */
-  const HandleArrowRight = () => {
     setCursorPosition((curValue) =>
       curValue < String(currentValue).length ? curValue + 1 : curValue
     );
@@ -93,7 +92,6 @@ export const Input = ({
    * Handle the Left Arrow being pressed.
    * Move 1 character left, unless at the start of the input.
    */
-  const HandleArrowLeft = () => {
     setCursorPosition((curValue) => (curValue > 0 ? curValue - 1 : curValue));
   };
 
@@ -101,13 +99,11 @@ export const Input = ({
    * Handle the Up Arrow being pressed.
    * Move to the beginning of the input.
    */
-  const HandleArrowUp = () => setCursorPosition(0);
 
   /**
    * Handle the Down Arrow being pressed
    * Move to the end of the input.
    */
-  const HandleArrowDown = () => setCursorPosition(String(currentValue).length);
 
   /**
    * Handle character intake
@@ -147,22 +143,17 @@ export const Input = ({
         HandleBackspace();
         break;
       case "ArrowRight":
-        HandleArrowRight();
         break;
       case "ArrowLeft":
-        HandleArrowLeft();
         break;
       case "ArrowUp":
-        HandleArrowUp();
         break;
       case "ArrowDown":
-        HandleArrowDown();
         break;
       case "Enter":
         HandleEnter();
         break;
       default:
-        HandleCharacter(evt.key, evt.ctrlKey || evt.metaKey);
     }
     lastCharRef.current && lastCharRef.current.scrollIntoView();
   };
@@ -218,8 +209,6 @@ export const Input = ({
                 <Character
                   key={`key_${i}`}
                   data-character-id={i + 1}
-                  data-cursor={cursorPosition - 1 === i}
-                  data-selected={false}
                   ref={lastCharRef}
                 >
                   {hideThisChar ? PASSWORD_CHAR : character}
