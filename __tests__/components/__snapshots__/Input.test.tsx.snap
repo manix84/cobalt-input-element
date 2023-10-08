@@ -1,0 +1,1503 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input renders \`className\` in component unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-74661f0c-0 bDfjcy"
+      >
+        <div
+          class="sc-74661f0c-1 eUeMxO className"
+          data-cursor-type="phase"
+          data-has-errors="false"
+          data-testid=""
+          tabindex="0"
+        >
+          <div
+            class="sc-74661f0c-2 jpIcsi"
+          >
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="0"
+              data-cursor="true"
+            >
+              ​
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-74661f0c-0 bDfjcy"
+    >
+      <div
+        class="sc-74661f0c-1 eUeMxO className"
+        data-cursor-type="phase"
+        data-has-errors="false"
+        data-testid=""
+        tabindex="0"
+      >
+        <div
+          class="sc-74661f0c-2 jpIcsi"
+        >
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="0"
+            data-cursor="true"
+          >
+            ​
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input renders \`focused\` in component unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-74661f0c-0 bDfjcy"
+      >
+        <div
+          class="sc-74661f0c-1 eUeMxO"
+          data-cursor-type="phase"
+          data-has-errors="false"
+          data-testid="test"
+          tabindex="0"
+        >
+          <div
+            class="sc-74661f0c-2 jpIcsi"
+          >
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="0"
+              data-cursor="false"
+            >
+              ​
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="1"
+              data-cursor="false"
+            >
+              V
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="2"
+              data-cursor="false"
+            >
+              a
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="3"
+              data-cursor="false"
+            >
+              l
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="4"
+              data-cursor="false"
+            >
+              u
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="5"
+              data-cursor="true"
+            >
+              e
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-74661f0c-0 bDfjcy"
+    >
+      <div
+        class="sc-74661f0c-1 eUeMxO"
+        data-cursor-type="phase"
+        data-has-errors="false"
+        data-testid="test"
+        tabindex="0"
+      >
+        <div
+          class="sc-74661f0c-2 jpIcsi"
+        >
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="0"
+            data-cursor="false"
+          >
+            ​
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="1"
+            data-cursor="false"
+          >
+            V
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="2"
+            data-cursor="false"
+          >
+            a
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="3"
+            data-cursor="false"
+          >
+            l
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="4"
+            data-cursor="false"
+          >
+            u
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="5"
+            data-cursor="true"
+          >
+            e
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input renders \`password\` and \`value\` in component unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-74661f0c-0 bDfjcy"
+      >
+        <div
+          class="sc-74661f0c-1 eUeMxO"
+          data-cursor-type="phase"
+          data-has-errors="false"
+          data-testid=""
+          tabindex="0"
+        >
+          <div
+            class="sc-74661f0c-2 jpIcsi"
+          >
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="0"
+              data-cursor="false"
+            >
+              ​
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="1"
+              data-cursor="false"
+            >
+              •
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="2"
+              data-cursor="false"
+            >
+              •
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="3"
+              data-cursor="false"
+            >
+              •
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="4"
+              data-cursor="false"
+            >
+              •
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="5"
+              data-cursor="false"
+            >
+              •
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="6"
+              data-cursor="false"
+            >
+              •
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="7"
+              data-cursor="false"
+            >
+              •
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="8"
+              data-cursor="true"
+            >
+              •
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-74661f0c-0 bDfjcy"
+    >
+      <div
+        class="sc-74661f0c-1 eUeMxO"
+        data-cursor-type="phase"
+        data-has-errors="false"
+        data-testid=""
+        tabindex="0"
+      >
+        <div
+          class="sc-74661f0c-2 jpIcsi"
+        >
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="0"
+            data-cursor="false"
+          >
+            ​
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="1"
+            data-cursor="false"
+          >
+            •
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="2"
+            data-cursor="false"
+          >
+            •
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="3"
+            data-cursor="false"
+          >
+            •
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="4"
+            data-cursor="false"
+          >
+            •
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="5"
+            data-cursor="false"
+          >
+            •
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="6"
+            data-cursor="false"
+          >
+            •
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="7"
+            data-cursor="false"
+          >
+            •
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="8"
+            data-cursor="true"
+          >
+            •
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input renders \`password\`, \`value\`, and \`placeholder\` in component unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-74661f0c-0 bDfjcy"
+      >
+        <div
+          class="sc-74661f0c-1 eUeMxO"
+          data-cursor-type="phase"
+          data-has-errors="false"
+          data-testid=""
+          tabindex="0"
+        >
+          <div
+            class="sc-74661f0c-2 jpIcsi"
+          >
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="0"
+              data-cursor="false"
+            >
+              ​
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="1"
+              data-cursor="false"
+            >
+              •
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="2"
+              data-cursor="false"
+            >
+              •
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="3"
+              data-cursor="false"
+            >
+              •
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="4"
+              data-cursor="false"
+            >
+              •
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="5"
+              data-cursor="true"
+            >
+              •
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-74661f0c-0 bDfjcy"
+    >
+      <div
+        class="sc-74661f0c-1 eUeMxO"
+        data-cursor-type="phase"
+        data-has-errors="false"
+        data-testid=""
+        tabindex="0"
+      >
+        <div
+          class="sc-74661f0c-2 jpIcsi"
+        >
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="0"
+            data-cursor="false"
+          >
+            ​
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="1"
+            data-cursor="false"
+          >
+            •
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="2"
+            data-cursor="false"
+          >
+            •
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="3"
+            data-cursor="false"
+          >
+            •
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="4"
+            data-cursor="false"
+          >
+            •
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="5"
+            data-cursor="true"
+          >
+            •
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input renders \`placeholder\` and \`value\` in component unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-74661f0c-0 bDfjcy"
+      >
+        <div
+          class="sc-74661f0c-1 eUeMxO"
+          data-cursor-type="phase"
+          data-has-errors="false"
+          data-testid=""
+          tabindex="0"
+        >
+          <div
+            class="sc-74661f0c-2 jpIcsi"
+          >
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="0"
+              data-cursor="false"
+            >
+              ​
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="1"
+              data-cursor="false"
+            >
+              V
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="2"
+              data-cursor="false"
+            >
+              a
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="3"
+              data-cursor="false"
+            >
+              l
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="4"
+              data-cursor="false"
+            >
+              u
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="5"
+              data-cursor="true"
+            >
+              e
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-74661f0c-0 bDfjcy"
+    >
+      <div
+        class="sc-74661f0c-1 eUeMxO"
+        data-cursor-type="phase"
+        data-has-errors="false"
+        data-testid=""
+        tabindex="0"
+      >
+        <div
+          class="sc-74661f0c-2 jpIcsi"
+        >
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="0"
+            data-cursor="false"
+          >
+            ​
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="1"
+            data-cursor="false"
+          >
+            V
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="2"
+            data-cursor="false"
+          >
+            a
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="3"
+            data-cursor="false"
+          >
+            l
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="4"
+            data-cursor="false"
+          >
+            u
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="5"
+            data-cursor="true"
+          >
+            e
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input renders \`placeholder\` in component unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-74661f0c-0 bDfjcy"
+      >
+        <div
+          class="sc-74661f0c-1 eUeMxO"
+          data-cursor-type="phase"
+          data-has-errors="false"
+          data-testid=""
+          tabindex="0"
+        >
+          <div
+            class="sc-74661f0c-2 jpIcsi"
+          >
+            <span
+              class="sc-74661f0c-3 fsiXOy"
+            >
+              PlaceHolder
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="0"
+              data-cursor="true"
+            >
+              ​
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-74661f0c-0 bDfjcy"
+    >
+      <div
+        class="sc-74661f0c-1 eUeMxO"
+        data-cursor-type="phase"
+        data-has-errors="false"
+        data-testid=""
+        tabindex="0"
+      >
+        <div
+          class="sc-74661f0c-2 jpIcsi"
+        >
+          <span
+            class="sc-74661f0c-3 fsiXOy"
+          >
+            PlaceHolder
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="0"
+            data-cursor="true"
+          >
+            ​
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input renders \`showPasswordToggle\` in component unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-74661f0c-0 bDfjcy"
+      >
+        <div
+          class="sc-74661f0c-1 eUeMxO"
+          data-cursor-type="phase"
+          data-has-errors="false"
+          data-testid=""
+          tabindex="0"
+        >
+          <div
+            class="sc-74661f0c-2 jpIcsi"
+          >
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="0"
+              data-cursor="true"
+            >
+              ​
+            </span>
+            <div
+              class="sc-74661f0c-5 gEgYzw"
+              data-show-chars="true"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-74661f0c-0 bDfjcy"
+    >
+      <div
+        class="sc-74661f0c-1 eUeMxO"
+        data-cursor-type="phase"
+        data-has-errors="false"
+        data-testid=""
+        tabindex="0"
+      >
+        <div
+          class="sc-74661f0c-2 jpIcsi"
+        >
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="0"
+            data-cursor="true"
+          >
+            ​
+          </span>
+          <div
+            class="sc-74661f0c-5 gEgYzw"
+            data-show-chars="true"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input renders \`style\` in component unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-74661f0c-0 bDfjcy"
+      >
+        <div
+          class="sc-74661f0c-1 eUeMxO"
+          data-cursor-type="phase"
+          data-has-errors="false"
+          data-testid=""
+          style="z-index: 1;"
+          tabindex="0"
+        >
+          <div
+            class="sc-74661f0c-2 jpIcsi"
+          >
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="0"
+              data-cursor="true"
+            >
+              ​
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-74661f0c-0 bDfjcy"
+    >
+      <div
+        class="sc-74661f0c-1 eUeMxO"
+        data-cursor-type="phase"
+        data-has-errors="false"
+        data-testid=""
+        style="z-index: 1;"
+        tabindex="0"
+      >
+        <div
+          class="sc-74661f0c-2 jpIcsi"
+        >
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="0"
+            data-cursor="true"
+          >
+            ​
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input renders \`value\` in component unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-74661f0c-0 bDfjcy"
+      >
+        <div
+          class="sc-74661f0c-1 eUeMxO"
+          data-cursor-type="phase"
+          data-has-errors="false"
+          data-testid=""
+          tabindex="0"
+        >
+          <div
+            class="sc-74661f0c-2 jpIcsi"
+          >
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="0"
+              data-cursor="false"
+            >
+              ​
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="1"
+              data-cursor="false"
+            >
+              V
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="2"
+              data-cursor="false"
+            >
+              a
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="3"
+              data-cursor="false"
+            >
+              l
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="4"
+              data-cursor="false"
+            >
+              u
+            </span>
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="5"
+              data-cursor="true"
+            >
+              e
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-74661f0c-0 bDfjcy"
+    >
+      <div
+        class="sc-74661f0c-1 eUeMxO"
+        data-cursor-type="phase"
+        data-has-errors="false"
+        data-testid=""
+        tabindex="0"
+      >
+        <div
+          class="sc-74661f0c-2 jpIcsi"
+        >
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="0"
+            data-cursor="false"
+          >
+            ​
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="1"
+            data-cursor="false"
+          >
+            V
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="2"
+            data-cursor="false"
+          >
+            a
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="3"
+            data-cursor="false"
+          >
+            l
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="4"
+            data-cursor="false"
+          >
+            u
+          </span>
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="5"
+            data-cursor="true"
+          >
+            e
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input renders basic component unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-74661f0c-0 bDfjcy"
+      >
+        <div
+          class="sc-74661f0c-1 eUeMxO"
+          data-cursor-type="phase"
+          data-has-errors="false"
+          data-testid=""
+          tabindex="0"
+        >
+          <div
+            class="sc-74661f0c-2 jpIcsi"
+          >
+            <span
+              class="sc-74661f0c-4 erhQzS"
+              data-character-id="0"
+              data-cursor="true"
+            >
+              ​
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-74661f0c-0 bDfjcy"
+    >
+      <div
+        class="sc-74661f0c-1 eUeMxO"
+        data-cursor-type="phase"
+        data-has-errors="false"
+        data-testid=""
+        tabindex="0"
+      >
+        <div
+          class="sc-74661f0c-2 jpIcsi"
+        >
+          <span
+            class="sc-74661f0c-4 erhQzS"
+            data-character-id="0"
+            data-cursor="true"
+          >
+            ​
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -6,20 +6,20 @@ exports[`renders basic Input components unchanged 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-5ad279a-0 jwGGbM"
+        class="sc-74661f0c-0 bDfjcy"
       >
         <div
-          class="sc-5ad279a-1 kjqGps"
+          class="sc-74661f0c-1 eUeMxO"
           data-cursor-type="phase"
-          data-force-focus="false"
           data-has-errors="false"
+          data-testid=""
           tabindex="0"
         >
           <div
-            class="sc-5ad279a-2 gXpAPM"
+            class="sc-74661f0c-2 jpIcsi"
           >
             <span
-              class="sc-5ad279a-4 hqvxNo"
+              class="sc-74661f0c-4 erhQzS"
               data-character-id="0"
               data-cursor="true"
             >
@@ -32,20 +32,20 @@ exports[`renders basic Input components unchanged 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-5ad279a-0 jwGGbM"
+      class="sc-74661f0c-0 bDfjcy"
     >
       <div
-        class="sc-5ad279a-1 kjqGps"
+        class="sc-74661f0c-1 eUeMxO"
         data-cursor-type="phase"
-        data-force-focus="false"
         data-has-errors="false"
+        data-testid=""
         tabindex="0"
       >
         <div
-          class="sc-5ad279a-2 gXpAPM"
+          class="sc-74661f0c-2 jpIcsi"
         >
           <span
-            class="sc-5ad279a-4 hqvxNo"
+            class="sc-74661f0c-4 erhQzS"
             data-character-id="0"
             data-cursor="true"
           >
@@ -130,25 +130,25 @@ exports[`renders homepage unchanged 1`] = `
             class="sc-69456e6e-0 iMMezv"
           >
             <div
-              class="sc-5ad279a-0 jwGGbM"
+              class="sc-74661f0c-0 bDfjcy"
             >
               <div
-                class="sc-5ad279a-1 kjqGps sc-69456e6e-6 dwvZJd"
+                class="sc-74661f0c-1 eUeMxO sc-69456e6e-6 dwvZJd"
                 data-cursor-type="phase"
-                data-force-focus="false"
                 data-has-errors="false"
+                data-testid=""
                 tabindex="0"
               >
                 <div
-                  class="sc-5ad279a-2 gXpAPM"
+                  class="sc-74661f0c-2 jpIcsi"
                 >
                   <span
-                    class="sc-5ad279a-3 jRyDTU"
+                    class="sc-74661f0c-3 fsiXOy"
                   >
                     Username
                   </span>
                   <span
-                    class="sc-5ad279a-4 hqvxNo"
+                    class="sc-74661f0c-4 erhQzS"
                     data-character-id="0"
                     data-cursor="true"
                   >
@@ -158,32 +158,32 @@ exports[`renders homepage unchanged 1`] = `
               </div>
             </div>
             <div
-              class="sc-5ad279a-0 jwGGbM"
+              class="sc-74661f0c-0 bDfjcy"
             >
               <div
-                class="sc-5ad279a-1 kjqGps"
+                class="sc-74661f0c-1 eUeMxO"
                 data-cursor-type="phase"
-                data-force-focus="false"
                 data-has-errors="false"
+                data-testid=""
                 tabindex="0"
               >
                 <div
-                  class="sc-5ad279a-2 gXpAPM"
+                  class="sc-74661f0c-2 jpIcsi"
                 >
                   <span
-                    class="sc-5ad279a-3 jRyDTU"
+                    class="sc-74661f0c-3 fsiXOy"
                   >
                     Password
                   </span>
                   <span
-                    class="sc-5ad279a-4 hqvxNo"
+                    class="sc-74661f0c-4 erhQzS"
                     data-character-id="0"
                     data-cursor="true"
                   >
                     ​
                   </span>
                   <div
-                    class="sc-5ad279a-5 fZFcqa"
+                    class="sc-74661f0c-5 gEgYzw"
                     data-show-chars="true"
                   />
                 </div>
@@ -225,25 +225,25 @@ exports[`renders homepage unchanged 1`] = `
           class="sc-69456e6e-0 iMMezv"
         >
           <div
-            class="sc-5ad279a-0 jwGGbM"
+            class="sc-74661f0c-0 bDfjcy"
           >
             <div
-              class="sc-5ad279a-1 kjqGps sc-69456e6e-6 dwvZJd"
+              class="sc-74661f0c-1 eUeMxO sc-69456e6e-6 dwvZJd"
               data-cursor-type="phase"
-              data-force-focus="false"
               data-has-errors="false"
+              data-testid=""
               tabindex="0"
             >
               <div
-                class="sc-5ad279a-2 gXpAPM"
+                class="sc-74661f0c-2 jpIcsi"
               >
                 <span
-                  class="sc-5ad279a-3 jRyDTU"
+                  class="sc-74661f0c-3 fsiXOy"
                 >
                   Username
                 </span>
                 <span
-                  class="sc-5ad279a-4 hqvxNo"
+                  class="sc-74661f0c-4 erhQzS"
                   data-character-id="0"
                   data-cursor="true"
                 >
@@ -253,32 +253,32 @@ exports[`renders homepage unchanged 1`] = `
             </div>
           </div>
           <div
-            class="sc-5ad279a-0 jwGGbM"
+            class="sc-74661f0c-0 bDfjcy"
           >
             <div
-              class="sc-5ad279a-1 kjqGps"
+              class="sc-74661f0c-1 eUeMxO"
               data-cursor-type="phase"
-              data-force-focus="false"
               data-has-errors="false"
+              data-testid=""
               tabindex="0"
             >
               <div
-                class="sc-5ad279a-2 gXpAPM"
+                class="sc-74661f0c-2 jpIcsi"
               >
                 <span
-                  class="sc-5ad279a-3 jRyDTU"
+                  class="sc-74661f0c-3 fsiXOy"
                 >
                   Password
                 </span>
                 <span
-                  class="sc-5ad279a-4 hqvxNo"
+                  class="sc-74661f0c-4 erhQzS"
                   data-character-id="0"
                   data-cursor="true"
                 >
                   ​
                 </span>
                 <div
-                  class="sc-5ad279a-5 fZFcqa"
+                  class="sc-74661f0c-5 gEgYzw"
                   data-show-chars="true"
                 />
               </div>
