@@ -53,6 +53,8 @@ export const Input = ({
   const [cursorPosition, setCursorPosition] = useState<number>(
     String(value).length
   );
+  const [selection, setSelection] = useState<[number, number]>([0, 0]);
+  const [isSelecting, setIsSelecting] = useState<boolean>(false);
   const [hideValue, setHideValue] = useState<boolean>(type === "password");
   const [hideLastChar, setHideLastChar] = useState<boolean>(true);
   const [isDirty, setIsDirty] = useState<boolean>(false);
@@ -83,6 +85,7 @@ export const Input = ({
    * Handle the Right Arrow being pressed.
    * Move 1 character right, unless at the end of the input.
    */
+  const HandleMoveRight = () => {
     setCursorPosition((curValue) =>
       curValue < String(currentValue).length ? curValue + 1 : curValue
     );
@@ -92,6 +95,7 @@ export const Input = ({
    * Handle the Left Arrow being pressed.
    * Move 1 character left, unless at the start of the input.
    */
+  const HandleMoveLeft = () => {
     setCursorPosition((curValue) => (curValue > 0 ? curValue - 1 : curValue));
   };
 
@@ -99,11 +103,15 @@ export const Input = ({
    * Handle the Up Arrow being pressed.
    * Move to the beginning of the input.
    */
+  const HandleMoveToStart = () => setCursorPosition(0);
 
   /**
    * Handle the Down Arrow being pressed
    * Move to the end of the input.
    */
+  const HandleMoveToEnd = () => setCursorPosition(String(currentValue).length);
+
+  const HandleSelect = () => {};
 
   /**
    * Handle character intake
@@ -138,22 +146,38 @@ export const Input = ({
    * @param evt {React.KeyboardEvent}
    */
   const handleKeyDown = (evt: React.KeyboardEvent) => {
+    const hasMetaKey = evt.ctrlKey || evt.metaKey;
+    if (evt.shiftKey) {
+      setIsSelecting(true);
+    } else {
+      setIsSelecting(false);
+    }
     switch (evt.key) {
       case "Backspace":
         HandleBackspace();
         break;
       case "ArrowRight":
+        HandleMoveRight();
         break;
       case "ArrowLeft":
+        HandleMoveLeft();
         break;
       case "ArrowUp":
+        HandleMoveToStart();
         break;
       case "ArrowDown":
+        HandleMoveToEnd();
         break;
       case "Enter":
         HandleEnter();
         break;
       default:
+        if (hasMetaKey && evt.key.toLowerCase() === "a") {
+          evt.preventDefault();
+          setSelection([0, currentValue.length]);
+        } else {
+          HandleCharacter(evt.key, hasMetaKey);
+        }
     }
     lastCharRef.current && lastCharRef.current.scrollIntoView();
   };
@@ -175,6 +199,22 @@ export const Input = ({
     }
     onChange && onChange({ value: currentValue, errors: errors || undefined });
   }, [currentValue]);
+
+  useEffect(() => {
+    if (isSelecting) {
+      if (selection[0] === -1) {
+        setSelection([cursorPosition, cursorPosition]);
+      } else {
+        setSelection((curSelection) => [
+          cursorPosition < curSelection[0] ? cursorPosition : curSelection[0],
+          cursorPosition > curSelection[1] ? cursorPosition : curSelection[1],
+        ]);
+      }
+    } else {
+      setSelection([-1, -1]);
+    }
+    console.log({ ...selection });
+  }, [cursorPosition]);
 
   const handleFocus = onFocus;
   const handleBlur = onBlur;
@@ -209,6 +249,8 @@ export const Input = ({
                 <Character
                   key={`key_${i}`}
                   data-character-id={i + 1}
+                  data-cursor={cursorPosition === i + 1}
+                  data-selected={i >= selection[0] && i <= selection[1]}
                   ref={lastCharRef}
                 >
                   {hideThisChar ? PASSWORD_CHAR : character}
@@ -313,6 +355,12 @@ const Character = styled.span`
   margin-right: -2px;
   :focus &[data-cursor="true"] {
     border-right-color: currentColor;
+  }
+  &[data-selected="true"] {
+    background-color: rgba(75, 150, 255, 0.8);
+    @media (prefers-color-scheme: dark) {
+      background-color: rgba(25, 100, 150, 0.8);
+    }
   }
   [data-cursor-type="blink"]:focus &[data-cursor="true"],
   [data-cursor-type="phase"]:focus &[data-cursor="true"],
