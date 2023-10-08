@@ -5,9 +5,6 @@ import Input from "../components/Input";
 const Home = () => {
   const [username, setUsername] = useState<string>("");
   const [password, setPassword] = useState<string>("");
-  const [selected, setSelected] = useState<
-    "username" | "password" | "button" | undefined
-  >();
   const [submission, setSubmission] = useState<{ [key: string]: string }>({
     username,
     password,
@@ -21,9 +18,8 @@ const Home = () => {
         <Title>Cobalt Input Element</Title>
         <Form>
           <Input
-            placeholder={"Username"}
             value={username}
-            focus={selected === "username"}
+            placeholder={"Username"}
             onChange={({ value }) => setUsername(value)}
             onSubmit={handleSubmit}
             required
@@ -32,10 +28,9 @@ const Home = () => {
             `}
           />
           <Input
-            placeholder={"Password"}
-            passwordToggle
             value={password}
-            focus={selected === "password"}
+            placeholder={"Password"}
+            showPasswordToggle
             type={"password"}
             passwordCharDelay={1000}
             onChange={({ value }) => setPassword(value)}
@@ -79,7 +74,7 @@ const Main = styled.div`
   align-items: center;
 `;
 
-const Title = styled.div`
+const Title = styled.div.attrs({ role: "heading" })`
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;

@@ -16,7 +16,7 @@ export const Input = ({
   style = {},
   className = "",
   passwordCharDelay = 0,
-  passwordToggle = false,
+  showPasswordToggle = false,
   cursorBlink = "phase",
   placeholder = "",
   required = false,
@@ -24,6 +24,7 @@ export const Input = ({
   onSubmit = () => {},
   onFocus = () => {},
   onBlur = () => {},
+  ref = null,
 }) => {
   const lastCharRef = createRef();
   const [currentValue, setCurrentValue] = useState(value || "");
@@ -174,6 +175,7 @@ export const Input = ({
         onBlur={handleBlur}
         style={style}
         className={className}
+        ref={ref}
       >
         <TextDisplay>
           {placeholder && String(currentValue).length === 0 && (
@@ -201,7 +203,7 @@ export const Input = ({
                 </Character>
               );
             })}
-          {type === "password" && passwordToggle ? (
+          {type === "password" && showPasswordToggle ? (
             <HideCharsToggle
               data-show-chars={hideValue}
               onClick={handleToggleHideValue}
