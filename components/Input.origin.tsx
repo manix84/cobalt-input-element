@@ -36,6 +36,7 @@ interface InputProps {
   }) => void;
   onFocus?: () => void;
   onBlur?: () => void;
+  testId?: string;
 }
 
 export const Input = forwardRef<HTMLDivElement, InputProps>(
@@ -55,6 +56,7 @@ export const Input = forwardRef<HTMLDivElement, InputProps>(
       onSubmit = () => {},
       onFocus = () => {},
       onBlur = () => {},
+      testId,
     }: InputProps,
     ref
   ) => {
@@ -237,6 +239,7 @@ export const Input = forwardRef<HTMLDivElement, InputProps>(
           data-cursor-type={cursorBlink}
           data-force-focus={forceFocus}
           data-has-errors={Boolean(Object.keys(errors).length)}
+          data-testId={testId}
           onKeyDown={handleKeyDown}
           onFocus={handleFocus}
           onBlur={handleBlur}
@@ -273,6 +276,7 @@ export const Input = forwardRef<HTMLDivElement, InputProps>(
             {type === "password" && showPasswordToggle ? (
               <HideCharsToggle
                 data-show-chars={hideValue}
+                data-testid={testId ? `${testId}_toggle` : undefined}
                 onClick={handleToggleHideValue}
               />
             ) : (

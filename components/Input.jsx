@@ -12,7 +12,6 @@ let delayedPasswordCharacterTimeout;
 export const Input = ({
   value = "",
   type = "text",
-  focus: forceFocus = false,
   style = {},
   className = "",
   passwordCharDelay = 0,
@@ -24,6 +23,7 @@ export const Input = ({
   onSubmit = () => {},
   onFocus = () => {},
   onBlur = () => {},
+  testId = "",
   ref = null,
 }) => {
   const lastCharRef = createRef();
@@ -168,8 +168,8 @@ export const Input = ({
     <Container>
       <MainElement
         data-cursor-type={cursorBlink}
-        data-force-focus={forceFocus}
         data-has-errors={Boolean(Object.keys(errors).length)}
+        data-testid={testId}
         onKeyDown={handleKeyDown}
         onFocus={handleFocus}
         onBlur={handleBlur}
@@ -206,6 +206,7 @@ export const Input = ({
           {type === "password" && showPasswordToggle ? (
             <HideCharsToggle
               data-show-chars={hideValue}
+              data-testid={testId ? `${testId}_toggle` : undefined}
               onClick={handleToggleHideValue}
             />
           ) : (
