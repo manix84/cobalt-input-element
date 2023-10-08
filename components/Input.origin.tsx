@@ -1,4 +1,10 @@
-import { StyleHTMLAttributes, createRef, useEffect, useState } from "react";
+import {
+  StyleHTMLAttributes,
+  createRef,
+  forwardRef,
+  useEffect,
+  useState,
+} from "react";
 import styled, { keyframes } from "styled-components";
 import HideCharsDarkImg from "../public/components/Input/hideChars.dark.png";
 import HideCharsLightImg from "../public/components/Input/hideChars.light.png";
@@ -16,7 +22,7 @@ interface InputProps {
   style?: StyleHTMLAttributes<HTMLDivElement>;
   className?: string;
   passwordCharDelay?: number;
-  passwordToggle?: boolean;
+  showPasswordToggle?: boolean;
   cursorBlink?: "blink" | "phase" | "smooth" | "solid";
   placeholder?: string;
   required?: boolean;
@@ -32,255 +38,263 @@ interface InputProps {
   onBlur?: () => void;
 }
 
-export const Input = ({
-  value = "",
-  type = "text",
-  focus: forceFocus = false,
-  style = {},
-  className = "",
-  passwordCharDelay = 0,
-  passwordToggle = false,
-  cursorBlink = "phase",
-  placeholder = "",
-  required = false,
-  onChange = () => {},
-  onSubmit = () => {},
-  onFocus = () => {},
-  onBlur = () => {},
-}: InputProps) => {
-  const lastCharRef = createRef<HTMLSpanElement>();
-  const [currentValue, setCurrentValue] = useState<string>(value || "");
-  const [cursorPosition, setCursorPosition] = useState<number>(
-    String(value).length
-  );
-  const [selection, setSelection] = useState<[number, number]>([0, 0]);
-  const [isSelecting, setIsSelecting] = useState<boolean>(false);
-  const [hideValue, setHideValue] = useState<boolean>(type === "password");
-  const [hideLastChar, setHideLastChar] = useState<boolean>(true);
-  const [isDirty, setIsDirty] = useState<boolean>(false);
-  const [errors, setErrors] = useState<{ [key: string]: string }>({});
-
-  /**
-   * Handle the Backspace being pressed.
-   * Remove the character left of the indicator, unless at the beginning of the input.
-   */
-  const HandleBackspace = () => {
-    setCurrentValue(
-      (curValue) =>
-        String(curValue).substring(0, cursorPosition - 1) +
-        String(curValue).substring(cursorPosition, String(curValue).length)
+export const Input = forwardRef<HTMLDivElement, InputProps>(
+  (
+    {
+      value = "",
+      type = "text",
+      focus: forceFocus = false,
+      style = {},
+      className = "",
+      passwordCharDelay = 0,
+      showPasswordToggle = false,
+      cursorBlink = "phase",
+      placeholder = "",
+      required = false,
+      onChange = () => {},
+      onSubmit = () => {},
+      onFocus = () => {},
+      onBlur = () => {},
+    }: InputProps,
+    ref
+  ) => {
+    const lastCharRef = createRef<HTMLSpanElement>();
+    const [currentValue, setCurrentValue] = useState<string>(value || "");
+    const [cursorPosition, setCursorPosition] = useState<number>(
+      String(value).length
     );
-    setCursorPosition((curValue) => (curValue > 0 ? curValue - 1 : 0));
-    setHideLastChar(true);
-    clearTimeout(delayedPasswordCharacterTimeout);
-  };
+    const [selection, setSelection] = useState<[number, number]>([0, 0]);
+    const [isSelecting, setIsSelecting] = useState<boolean>(false);
+    const [hideValue, setHideValue] = useState<boolean>(type === "password");
+    const [hideLastChar, setHideLastChar] = useState<boolean>(true);
+    const [isDirty, setIsDirty] = useState<boolean>(false);
+    const [errors, setErrors] = useState<{ [key: string]: string }>({});
 
-  /**
-   * Handle the Enter button being pressed.
-   * Fire the onSubmit event, containing the current value.
-   */
-  const HandleEnter = () => onSubmit && onSubmit();
-
-  /**
-   * Handle the Right Arrow being pressed.
-   * Move 1 character right, unless at the end of the input.
-   */
-  const HandleMoveRight = () => {
-    setCursorPosition((curValue) =>
-      curValue < String(currentValue).length ? curValue + 1 : curValue
-    );
-  };
-
-  /**
-   * Handle the Left Arrow being pressed.
-   * Move 1 character left, unless at the start of the input.
-   */
-  const HandleMoveLeft = () => {
-    setCursorPosition((curValue) => (curValue > 0 ? curValue - 1 : curValue));
-  };
-
-  /**
-   * Handle the Up Arrow being pressed.
-   * Move to the beginning of the input.
-   */
-  const HandleMoveToStart = () => setCursorPosition(0);
-
-  /**
-   * Handle the Down Arrow being pressed
-   * Move to the end of the input.
-   */
-  const HandleMoveToEnd = () => setCursorPosition(String(currentValue).length);
-
-  const HandleSelect = () => {};
-
-  /**
-   * Handle character intake
-   * @param char {string} - The Character being input
-   */
-  const HandleCharacter = (char: string, hasMetaKey: boolean) => {
-    if (char.length > 1 || hasMetaKey) return;
-    setCurrentValue(
-      (curValue) =>
-        String(curValue).substring(0, cursorPosition) +
-        char +
-        String(curValue).substring(cursorPosition, String(curValue).length)
-    );
-    setCursorPosition((curValue) => curValue + 1);
-    setIsDirty(true);
-    if (passwordCharDelay && type === "password") {
-      setHideLastChar(false);
-      clearTimeout(delayedPasswordCharacterTimeout);
-      delayedPasswordCharacterTimeout = setTimeout(
-        () => setHideLastChar(true),
-        passwordCharDelay
+    /**
+     * Handle the Backspace being pressed.
+     * Remove the character left of the indicator, unless at the beginning of the input.
+     */
+    const HandleBackspace = () => {
+      setCurrentValue(
+        (curValue) =>
+          String(curValue).substring(0, cursorPosition - 1) +
+          String(curValue).substring(cursorPosition, String(curValue).length)
       );
-    }
-  };
-  /**
-   * Handle clicking the show/hide characters button, when type is "password".
-   */
-  const handleToggleHideValue = () => setHideValue((curVal) => !curVal);
+      setCursorPosition((curValue) => (curValue > 0 ? curValue - 1 : 0));
+      setHideLastChar(true);
+      clearTimeout(delayedPasswordCharacterTimeout);
+    };
 
-  /**
-   * Handle any button being pressed.
-   * @param evt {React.KeyboardEvent}
-   */
-  const handleKeyDown = (evt: React.KeyboardEvent) => {
-    const hasMetaKey = evt.ctrlKey || evt.metaKey;
-    if (evt.shiftKey) {
-      setIsSelecting(true);
-    } else {
-      setIsSelecting(false);
-    }
-    switch (evt.key) {
-      case "Backspace":
-        HandleBackspace();
-        break;
-      case "ArrowRight":
-        HandleMoveRight();
-        break;
-      case "ArrowLeft":
-        HandleMoveLeft();
-        break;
-      case "ArrowUp":
-        HandleMoveToStart();
-        break;
-      case "ArrowDown":
-        HandleMoveToEnd();
-        break;
-      case "Enter":
-        HandleEnter();
-        break;
-      default:
-        if (hasMetaKey && evt.key.toLowerCase() === "a") {
-          evt.preventDefault();
-          setSelection([0, currentValue.length]);
+    /**
+     * Handle the Enter button being pressed.
+     * Fire the onSubmit event, containing the current value.
+     */
+    const HandleEnter = () => onSubmit && onSubmit();
+
+    /**
+     * Handle the Right Arrow being pressed.
+     * Move 1 character right, unless at the end of the input.
+     */
+    const HandleMoveRight = () => {
+      setCursorPosition((curValue) =>
+        curValue < String(currentValue).length ? curValue + 1 : curValue
+      );
+    };
+
+    /**
+     * Handle the Left Arrow being pressed.
+     * Move 1 character left, unless at the start of the input.
+     */
+    const HandleMoveLeft = () => {
+      setCursorPosition((curValue) => (curValue > 0 ? curValue - 1 : curValue));
+    };
+
+    /**
+     * Handle the Up Arrow being pressed.
+     * Move to the beginning of the input.
+     */
+    const HandleMoveToStart = () => setCursorPosition(0);
+
+    /**
+     * Handle the Down Arrow being pressed
+     * Move to the end of the input.
+     */
+    const HandleMoveToEnd = () =>
+      setCursorPosition(String(currentValue).length);
+
+    const HandleSelect = () => {};
+
+    /**
+     * Handle character intake
+     * @param char {string} - The Character being input
+     */
+    const HandleCharacter = (char: string, hasMetaKey: boolean) => {
+      if (char.length > 1 || hasMetaKey) return;
+      setCurrentValue(
+        (curValue) =>
+          String(curValue).substring(0, cursorPosition) +
+          char +
+          String(curValue).substring(cursorPosition, String(curValue).length)
+      );
+      setCursorPosition((curValue) => curValue + 1);
+      setIsDirty(true);
+      if (passwordCharDelay && type === "password") {
+        setHideLastChar(false);
+        clearTimeout(delayedPasswordCharacterTimeout);
+        delayedPasswordCharacterTimeout = setTimeout(
+          () => setHideLastChar(true),
+          passwordCharDelay
+        );
+      }
+    };
+    /**
+     * Handle clicking the show/hide characters button, when type is "password".
+     */
+    const handleToggleHideValue = () => setHideValue((curVal) => !curVal);
+
+    /**
+     * Handle any button being pressed.
+     * @param evt {React.KeyboardEvent}
+     */
+    const handleKeyDown = (evt: React.KeyboardEvent) => {
+      const hasMetaKey = evt.ctrlKey || evt.metaKey;
+      if (evt.shiftKey) {
+        setIsSelecting(true);
+      } else {
+        setIsSelecting(false);
+      }
+      switch (evt.key) {
+        case "Backspace":
+          HandleBackspace();
+          break;
+        case "ArrowRight":
+          HandleMoveRight();
+          break;
+        case "ArrowLeft":
+          HandleMoveLeft();
+          break;
+        case "ArrowUp":
+          HandleMoveToStart();
+          break;
+        case "ArrowDown":
+          HandleMoveToEnd();
+          break;
+        case "Enter":
+          HandleEnter();
+          break;
+        default:
+          if (hasMetaKey && evt.key.toLowerCase() === "a") {
+            evt.preventDefault();
+            setSelection([0, currentValue.length]);
+          } else {
+            HandleCharacter(evt.key, hasMetaKey);
+          }
+      }
+      lastCharRef.current && lastCharRef.current.scrollIntoView();
+    };
+
+    useEffect(() => {
+      if (required && isDirty) {
+        if (currentValue.length < 1) {
+          setErrors((curErrors) => {
+            curErrors["required"] = ERRORS["required"];
+            return curErrors;
+          });
+          console.log(errors);
         } else {
-          HandleCharacter(evt.key, hasMetaKey);
+          setErrors((curErrors) => {
+            delete curErrors["required"];
+            return curErrors;
+          });
         }
-    }
-    lastCharRef.current && lastCharRef.current.scrollIntoView();
-  };
-
-  useEffect(() => {
-    if (required && isDirty) {
-      if (currentValue.length < 1) {
-        setErrors((curErrors) => {
-          curErrors["required"] = ERRORS["required"];
-          return curErrors;
-        });
-        console.log(errors);
-      } else {
-        setErrors((curErrors) => {
-          delete curErrors["required"];
-          return curErrors;
-        });
       }
-    }
-    onChange && onChange({ value: currentValue, errors: errors || undefined });
-  }, [currentValue]);
+      onChange &&
+        onChange({ value: currentValue, errors: errors || undefined });
+    }, [currentValue]);
 
-  useEffect(() => {
-    if (isSelecting) {
-      if (selection[0] === -1) {
-        setSelection([cursorPosition, cursorPosition]);
+    useEffect(() => {
+      if (isSelecting) {
+        if (selection[0] === -1) {
+          setSelection([cursorPosition, cursorPosition]);
+        } else {
+          setSelection((curSelection) => [
+            cursorPosition < curSelection[0] ? cursorPosition : curSelection[0],
+            cursorPosition > curSelection[1] ? cursorPosition : curSelection[1],
+          ]);
+        }
       } else {
-        setSelection((curSelection) => [
-          cursorPosition < curSelection[0] ? cursorPosition : curSelection[0],
-          cursorPosition > curSelection[1] ? cursorPosition : curSelection[1],
-        ]);
+        setSelection([-1, -1]);
       }
-    } else {
-      setSelection([-1, -1]);
-    }
-    console.log({ ...selection });
-  }, [cursorPosition]);
+      console.log({ ...selection });
+    }, [cursorPosition]);
 
-  const handleFocus = onFocus;
-  const handleBlur = onBlur;
-  return (
-    <Container>
-      <MainElement
-        data-cursor-type={cursorBlink}
-        data-force-focus={forceFocus}
-        data-has-errors={Boolean(Object.keys(errors).length)}
-        onKeyDown={handleKeyDown}
-        onFocus={handleFocus}
-        onBlur={handleBlur}
-        style={style}
-        className={className}
-      >
-        <TextDisplay>
-          {placeholder && String(currentValue).length === 0 && (
-            <PlaceholderText>{placeholder}</PlaceholderText>
-          )}
-          <Character
-            data-character-id={0}
-            data-cursor={cursorPosition === 0}
-            children={"​"}
-          />
-          {String(currentValue)
-            .split("")
-            .map((character, i) => {
-              const isLastChar = i === cursorPosition - 1;
-              const hideThisChar =
-                hideValue && (!isLastChar || (isLastChar && hideLastChar));
-              return (
-                <Character
-                  key={`key_${i}`}
-                  data-character-id={i + 1}
-                  data-cursor={cursorPosition === i + 1}
-                  data-selected={i >= selection[0] && i <= selection[1]}
-                  ref={lastCharRef}
-                >
-                  {hideThisChar ? PASSWORD_CHAR : character}
-                </Character>
-              );
-            })}
-          {type === "password" && passwordToggle ? (
-            <HideCharsToggle
-              data-show-chars={hideValue}
-              onClick={handleToggleHideValue}
+    const handleFocus = onFocus;
+    const handleBlur = onBlur;
+    return (
+      <Container>
+        <MainElement
+          ref={ref}
+          data-cursor-type={cursorBlink}
+          data-force-focus={forceFocus}
+          data-has-errors={Boolean(Object.keys(errors).length)}
+          onKeyDown={handleKeyDown}
+          onFocus={handleFocus}
+          onBlur={handleBlur}
+          style={style}
+          className={className}
+        >
+          <TextDisplay>
+            {placeholder && String(currentValue).length === 0 && (
+              <PlaceholderText>{placeholder}</PlaceholderText>
+            )}
+            <Character
+              data-character-id={0}
+              data-cursor={cursorPosition === 0}
+              children={"​"}
             />
-          ) : (
-            <></>
-          )}
-        </TextDisplay>
-      </MainElement>
-      {Object.keys(errors).length ? (
-        <Errors>
-          {Object.entries(errors).map(([key, error]) => (
-            <Error key={key} data-key={key}>
-              {error}
-            </Error>
-          ))}
-        </Errors>
-      ) : (
-        <></>
-      )}
-    </Container>
-  );
-};
+            {String(currentValue)
+              .split("")
+              .map((character, i) => {
+                const isLastChar = i === cursorPosition - 1;
+                const hideThisChar =
+                  hideValue && (!isLastChar || (isLastChar && hideLastChar));
+                return (
+                  <Character
+                    key={`key_${i}`}
+                    data-character-id={i + 1}
+                    data-cursor={cursorPosition === i + 1}
+                    data-selected={i >= selection[0] && i <= selection[1]}
+                    ref={lastCharRef}
+                  >
+                    {hideThisChar ? PASSWORD_CHAR : character}
+                  </Character>
+                );
+              })}
+            {type === "password" && showPasswordToggle ? (
+              <HideCharsToggle
+                data-show-chars={hideValue}
+                onClick={handleToggleHideValue}
+              />
+            ) : (
+              <></>
+            )}
+          </TextDisplay>
+        </MainElement>
+        {Object.keys(errors).length ? (
+          <Errors>
+            {Object.entries(errors).map(([key, error]) => (
+              <Error key={key} data-key={key}>
+                {error}
+              </Error>
+            ))}
+          </Errors>
+        ) : (
+          <></>
+        )}
+      </Container>
+    );
+  }
+);
 
 export default Input;
 
