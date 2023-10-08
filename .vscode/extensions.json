@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode", // Prettier - Code formatter
+    "mikestead.dotenv", // DotENV
+    "foxundermoon.next-js", // next.js
+    "styled-components.vscode-styled-components" // Styled Components
+  ]
+}

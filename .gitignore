@@ -1,0 +1,38 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+/test-ledger
+/cypress/report
+/cypress/videos
+/cypress/screenshots
+/cypress/downloads
+/cypress/fixtures
+
+# production
+/build
+.next
+
+# storybook
+/storybook-static
+
+# sentry
+.sentryclirc
+
+# misc
+.DS_Store
+.env
+.env.*
+.env.local
+.env.*.local
+firebase-debug.log
+serviceAccount.json
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

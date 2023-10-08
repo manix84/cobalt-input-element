@@ -1,0 +1,1695 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders addRow components unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <form>
+        <table
+          class="sc-hLQTFJ gWdLkF"
+        >
+          <tbody>
+            <tr
+              class="sc-jTQDJr bvqaGQ"
+            >
+              <td
+                class="sc-eDLKEg sc-gLLuHO gVlCde cRpsBe"
+              >
+                <input
+                  autocomplete="off"
+                  class="sc-jsEeA-d fpaWtY"
+                  data-1pignore="true"
+                  name="name"
+                  type="text"
+                />
+              </td>
+              <td
+                class="sc-eDLKEg sc-gLLuHO gVlCde cRpsBe"
+              >
+                <input
+                  autocomplete="off"
+                  class="sc-jsEeA-d fpaWtY"
+                  data-1pignore="true"
+                  name="manufacturer"
+                  type="text"
+                />
+              </td>
+              <td
+                class="sc-eDLKEg sc-gLLuHO eBJZcU cRpsBe"
+              >
+                <input
+                  autocomplete="off"
+                  class="sc-jsEeA-d fpaWtY"
+                  data-1pignore="true"
+                  name="stockLevel"
+                  type="number"
+                />
+              </td>
+              <td
+                class="sc-eDLKEg sc-gLLuHO sc-590c3d-0 bgfuxj cRpsBe bEAkWe"
+              >
+                <button
+                  class="sc-iBdoyZ sc-fsYfxw coKrmd cTCBIB"
+                  disabled=""
+                  type="submit"
+                >
+                  <svg
+                    role="presentation"
+                    style="width: 1.6em; height: 1.6em;"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                      style="fill: currentColor;"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <form>
+      <table
+        class="sc-hLQTFJ gWdLkF"
+      >
+        <tbody>
+          <tr
+            class="sc-jTQDJr bvqaGQ"
+          >
+            <td
+              class="sc-eDLKEg sc-gLLuHO gVlCde cRpsBe"
+            >
+              <input
+                autocomplete="off"
+                class="sc-jsEeA-d fpaWtY"
+                data-1pignore="true"
+                name="name"
+                type="text"
+              />
+            </td>
+            <td
+              class="sc-eDLKEg sc-gLLuHO gVlCde cRpsBe"
+            >
+              <input
+                autocomplete="off"
+                class="sc-jsEeA-d fpaWtY"
+                data-1pignore="true"
+                name="manufacturer"
+                type="text"
+              />
+            </td>
+            <td
+              class="sc-eDLKEg sc-gLLuHO eBJZcU cRpsBe"
+            >
+              <input
+                autocomplete="off"
+                class="sc-jsEeA-d fpaWtY"
+                data-1pignore="true"
+                name="stockLevel"
+                type="number"
+              />
+            </td>
+            <td
+              class="sc-eDLKEg sc-gLLuHO sc-590c3d-0 bgfuxj cRpsBe bEAkWe"
+            >
+              <button
+                class="sc-iBdoyZ sc-fsYfxw coKrmd cTCBIB"
+                disabled=""
+                type="submit"
+              >
+                <svg
+                  role="presentation"
+                  style="width: 1.6em; height: 1.6em;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                    style="fill: currentColor;"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders background components unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-guDMob fuIHCC"
+      >
+        <div
+          class="sc-dmyDmy eNCzdy"
+        />
+        <div
+          class="sc-beyTiQ heZMko"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-guDMob fuIHCC"
+    >
+      <div
+        class="sc-dmyDmy eNCzdy"
+      />
+      <div
+        class="sc-beyTiQ heZMko"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders deleteDialogue components unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-qZruQ hrayws"
+        data-id="0"
+      >
+        <div
+          class="sc-kFCrIq eokhSx"
+        >
+          Are you sure you want to delete
+
+          <strong />
+          ?
+        </div>
+        <div
+          class="sc-irLvoH fQouRw"
+        >
+          <button
+            class="sc-csKJRI sc-eTNxZ eYFWbh geTghn"
+          >
+            Yes
+          </button>
+          <button
+            class="sc-csKJRI eYFWbh"
+          >
+            No
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-qZruQ hrayws"
+      data-id="0"
+    >
+      <div
+        class="sc-kFCrIq eokhSx"
+      >
+        Are you sure you want to delete
+
+        <strong />
+        ?
+      </div>
+      <div
+        class="sc-irLvoH fQouRw"
+      >
+        <button
+          class="sc-csKJRI sc-eTNxZ eYFWbh geTghn"
+        >
+          Yes
+        </button>
+        <button
+          class="sc-csKJRI eYFWbh"
+        >
+          No
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders editDialogue components unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-qZruQ hrayws"
+        data-id="0"
+      >
+        <form
+          class="sc-d528ac18-0 kVPguh"
+        >
+          <input
+            name="id"
+            type="hidden"
+            value="0"
+          />
+          <div
+            class="sc-d528ac18-1 eKSHs"
+          >
+            <input
+              autocomplete="off"
+              class="sc-d528ac18-2 heKoRT"
+              data-1pignore="true"
+              name="name"
+              required=""
+              type="text"
+            />
+            <label
+              class="sc-d528ac18-3 dnGdTi"
+            >
+              Name
+            </label>
+          </div>
+          <div
+            class="sc-d528ac18-1 eKSHs"
+          >
+            <input
+              autocomplete="off"
+              class="sc-d528ac18-2 heKoRT"
+              data-1pignore="true"
+              name="manufacturer"
+              required=""
+              type="text"
+            />
+            <label
+              class="sc-d528ac18-3 dnGdTi"
+            >
+              Manufacturer
+            </label>
+          </div>
+          <div
+            class="sc-d528ac18-1 eKSHs"
+          >
+            <input
+              autocomplete="off"
+              class="sc-d528ac18-2 heKoRT"
+              data-1pignore="true"
+              name="stockLevel"
+              required=""
+              type="number"
+            />
+            <label
+              class="sc-d528ac18-3 dnGdTi"
+            >
+              Stock Level
+            </label>
+          </div>
+          <div
+            class="sc-d528ac18-4 ktRPXe"
+          >
+            <button
+              class="sc-d528ac18-5 giNlZR"
+            >
+              Cancel
+            </button>
+            <button
+              class="sc-d528ac18-5 sc-d528ac18-6 giNlZR kVQbHL"
+              disabled=""
+              type="submit"
+            >
+              Save
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-qZruQ hrayws"
+      data-id="0"
+    >
+      <form
+        class="sc-d528ac18-0 kVPguh"
+      >
+        <input
+          name="id"
+          type="hidden"
+          value="0"
+        />
+        <div
+          class="sc-d528ac18-1 eKSHs"
+        >
+          <input
+            autocomplete="off"
+            class="sc-d528ac18-2 heKoRT"
+            data-1pignore="true"
+            name="name"
+            required=""
+            type="text"
+          />
+          <label
+            class="sc-d528ac18-3 dnGdTi"
+          >
+            Name
+          </label>
+        </div>
+        <div
+          class="sc-d528ac18-1 eKSHs"
+        >
+          <input
+            autocomplete="off"
+            class="sc-d528ac18-2 heKoRT"
+            data-1pignore="true"
+            name="manufacturer"
+            required=""
+            type="text"
+          />
+          <label
+            class="sc-d528ac18-3 dnGdTi"
+          >
+            Manufacturer
+          </label>
+        </div>
+        <div
+          class="sc-d528ac18-1 eKSHs"
+        >
+          <input
+            autocomplete="off"
+            class="sc-d528ac18-2 heKoRT"
+            data-1pignore="true"
+            name="stockLevel"
+            required=""
+            type="number"
+          />
+          <label
+            class="sc-d528ac18-3 dnGdTi"
+          >
+            Stock Level
+          </label>
+        </div>
+        <div
+          class="sc-d528ac18-4 ktRPXe"
+        >
+          <button
+            class="sc-d528ac18-5 giNlZR"
+          >
+            Cancel
+          </button>
+          <button
+            class="sc-d528ac18-5 sc-d528ac18-6 giNlZR kVQbHL"
+            disabled=""
+            type="submit"
+          >
+            Save
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders homepage unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="sc-ktwNLz jNgtKZ"
+      >
+        <div
+          class="sc-hABBGs kFhDov"
+        >
+          <h1
+            class="sc-fmKFmJ eileMc"
+          >
+            Cobalt Input Element
+          </h1>
+          <div
+            class="sc-4ed91a04-0 JuJlD"
+          >
+            <div />
+            <div />
+            <div />
+            <div />
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="sc-ktwNLz jNgtKZ"
+    >
+      <div
+        class="sc-hABBGs kFhDov"
+      >
+        <h1
+          class="sc-fmKFmJ eileMc"
+        >
+          Cobalt Input Element
+        </h1>
+        <div
+          class="sc-4ed91a04-0 JuJlD"
+        >
+          <div />
+          <div />
+          <div />
+          <div />
+        </div>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders shared components unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        class="sc-hLQTFJ gWdLkF"
+      >
+        <tbody>
+          <tr
+            class="sc-jTQDJr bvqaGQ"
+          >
+            <td
+              class="sc-eDLKEg eQzojK"
+            >
+              Hello World
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="sc-hLQTFJ gWdLkF"
+    >
+      <tbody>
+        <tr
+          class="sc-jTQDJr bvqaGQ"
+        >
+          <td
+            class="sc-eDLKEg eQzojK"
+          >
+            Hello World
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders shared components unchanged 2`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        class="sc-hLQTFJ gWdLkF"
+      >
+        <tbody>
+          <tr
+            class="sc-jTQDJr bvqaGQ"
+          >
+            <td
+              class="sc-eDLKEg eQzojK"
+            >
+              Hello World
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table
+        class="sc-hLQTFJ gWdLkF"
+      >
+        <tbody>
+          <tr
+            class="sc-jTQDJr bvqaGQ"
+          >
+            <td
+              class="sc-eDLKEg sc-gLLuHO eQzojK cRpsBe"
+            >
+              Hello World
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="sc-hLQTFJ gWdLkF"
+    >
+      <tbody>
+        <tr
+          class="sc-jTQDJr bvqaGQ"
+        >
+          <td
+            class="sc-eDLKEg sc-gLLuHO eQzojK cRpsBe"
+          >
+            Hello World
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders shared components unchanged 3`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        class="sc-hLQTFJ gWdLkF"
+      >
+        <tbody>
+          <tr
+            class="sc-jTQDJr bvqaGQ"
+          >
+            <td
+              class="sc-eDLKEg eQzojK"
+            >
+              Hello World
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table
+        class="sc-hLQTFJ gWdLkF"
+      >
+        <tbody>
+          <tr
+            class="sc-jTQDJr bvqaGQ"
+          >
+            <td
+              class="sc-eDLKEg sc-gLLuHO eQzojK cRpsBe"
+            >
+              Hello World
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <button
+        class="sc-iBdoyZ sc-fsYfxw coKrmd cTCBIB"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      class="sc-iBdoyZ sc-fsYfxw coKrmd cTCBIB"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders shared components unchanged 4`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        class="sc-hLQTFJ gWdLkF"
+      >
+        <tbody>
+          <tr
+            class="sc-jTQDJr bvqaGQ"
+          >
+            <td
+              class="sc-eDLKEg eQzojK"
+            >
+              Hello World
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table
+        class="sc-hLQTFJ gWdLkF"
+      >
+        <tbody>
+          <tr
+            class="sc-jTQDJr bvqaGQ"
+          >
+            <td
+              class="sc-eDLKEg sc-gLLuHO eQzojK cRpsBe"
+            >
+              Hello World
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <button
+        class="sc-iBdoyZ sc-fsYfxw coKrmd cTCBIB"
+      />
+    </div>
+    <div>
+      <div
+        class="sc-qZruQ hrayws"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-qZruQ hrayws"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders shared components unchanged 5`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        class="sc-hLQTFJ gWdLkF"
+      >
+        <tbody>
+          <tr
+            class="sc-jTQDJr bvqaGQ"
+          >
+            <td
+              class="sc-eDLKEg eQzojK"
+            >
+              Hello World
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table
+        class="sc-hLQTFJ gWdLkF"
+      >
+        <tbody>
+          <tr
+            class="sc-jTQDJr bvqaGQ"
+          >
+            <td
+              class="sc-eDLKEg sc-gLLuHO eQzojK cRpsBe"
+            >
+              Hello World
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <button
+        class="sc-iBdoyZ sc-fsYfxw coKrmd cTCBIB"
+      />
+    </div>
+    <div>
+      <div
+        class="sc-qZruQ hrayws"
+      />
+    </div>
+    <div>
+      <input
+        autocomplete="off"
+        class="sc-jsEeA-d fpaWtY"
+        data-1pignore="true"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <input
+      autocomplete="off"
+      class="sc-jsEeA-d fpaWtY"
+      data-1pignore="true"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders spinner components unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-4ed91a04-0 JuJlD"
+      >
+        <div />
+        <div />
+        <div />
+        <div />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-4ed91a04-0 JuJlD"
+    >
+      <div />
+      <div />
+      <div />
+      <div />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders table components unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        class="sc-hLQTFJ gWdLkF"
+      >
+        <thead>
+          <tr>
+            <th
+              class="sc-eDLKEg sc-brSaGm gVlCde joMekW"
+            >
+              Name
+            </th>
+            <th
+              class="sc-eDLKEg sc-brSaGm gVlCde joMekW"
+            >
+              Manufacturer
+            </th>
+            <th
+              class="sc-eDLKEg sc-brSaGm eBJZcU joMekW"
+            >
+              Stock Level
+            </th>
+            <th
+              class="sc-eDLKEg sc-brSaGm bgfuxj iBJfhZ"
+            >
+              -
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="sc-jTQDJr bvqaGQ"
+            data-id="0"
+            data-pending-delete="false"
+            data-pending-edit="false"
+          >
+            <td
+              class="sc-eDLKEg sc-gLLuHO gVlCde cRpsBe"
+            >
+              Shirts
+            </td>
+            <td
+              class="sc-eDLKEg sc-gLLuHO gVlCde cRpsBe"
+            >
+              Polo
+            </td>
+            <td
+              class="sc-eDLKEg sc-gLLuHO eBJZcU cRpsBe"
+            >
+              50
+            </td>
+            <td
+              class="sc-eDLKEg sc-gLLuHO bgfuxj cRpsBe"
+            >
+              <button
+                class="sc-iBdoyZ sc-fsYfxw coKrmd cTCBIB"
+              >
+                <svg
+                  role="presentation"
+                  style="width: 1.6em; height: 1.6em;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+                    style="fill: currentColor;"
+                  />
+                </svg>
+              </button>
+              <button
+                class="sc-iBdoyZ sc-fsYfxw coKrmd cTCBIB"
+              >
+                <svg
+                  role="presentation"
+                  style="width: 1.6em; height: 1.6em;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9,3V4H4V6H5V19A2,2 0 0,0 7,21H17A2,2 0 0,0 19,19V6H20V4H15V3H9M7,6H17V19H7V6M9,8V17H11V8H9M13,8V17H15V8H13Z"
+                    style="fill: currentColor;"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <form>
+        <table
+          class="sc-hLQTFJ gWdLkF"
+        >
+          <tbody>
+            <tr
+              class="sc-jTQDJr bvqaGQ"
+            >
+              <td
+                class="sc-eDLKEg sc-gLLuHO gVlCde cRpsBe"
+              >
+                <input
+                  autocomplete="off"
+                  class="sc-jsEeA-d fpaWtY"
+                  data-1pignore="true"
+                  name="name"
+                  type="text"
+                />
+              </td>
+              <td
+                class="sc-eDLKEg sc-gLLuHO gVlCde cRpsBe"
+              >
+                <input
+                  autocomplete="off"
+                  class="sc-jsEeA-d fpaWtY"
+                  data-1pignore="true"
+                  name="manufacturer"
+                  type="text"
+                />
+              </td>
+              <td
+                class="sc-eDLKEg sc-gLLuHO eBJZcU cRpsBe"
+              >
+                <input
+                  autocomplete="off"
+                  class="sc-jsEeA-d fpaWtY"
+                  data-1pignore="true"
+                  name="stockLevel"
+                  type="number"
+                />
+              </td>
+              <td
+                class="sc-eDLKEg sc-gLLuHO sc-590c3d-0 bgfuxj cRpsBe bEAkWe"
+              >
+                <button
+                  class="sc-iBdoyZ sc-fsYfxw coKrmd cTCBIB"
+                  disabled=""
+                  type="submit"
+                >
+                  <svg
+                    role="presentation"
+                    style="width: 1.6em; height: 1.6em;"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                      style="fill: currentColor;"
+                    />
+                  </svg>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="sc-hLQTFJ gWdLkF"
+    >
+      <thead>
+        <tr>
+          <th
+            class="sc-eDLKEg sc-brSaGm gVlCde joMekW"
+          >
+            Name
+          </th>
+          <th
+            class="sc-eDLKEg sc-brSaGm gVlCde joMekW"
+          >
+            Manufacturer
+          </th>
+          <th
+            class="sc-eDLKEg sc-brSaGm eBJZcU joMekW"
+          >
+            Stock Level
+          </th>
+          <th
+            class="sc-eDLKEg sc-brSaGm bgfuxj iBJfhZ"
+          >
+            -
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="sc-jTQDJr bvqaGQ"
+          data-id="0"
+          data-pending-delete="false"
+          data-pending-edit="false"
+        >
+          <td
+            class="sc-eDLKEg sc-gLLuHO gVlCde cRpsBe"
+          >
+            Shirts
+          </td>
+          <td
+            class="sc-eDLKEg sc-gLLuHO gVlCde cRpsBe"
+          >
+            Polo
+          </td>
+          <td
+            class="sc-eDLKEg sc-gLLuHO eBJZcU cRpsBe"
+          >
+            50
+          </td>
+          <td
+            class="sc-eDLKEg sc-gLLuHO bgfuxj cRpsBe"
+          >
+            <button
+              class="sc-iBdoyZ sc-fsYfxw coKrmd cTCBIB"
+            >
+              <svg
+                role="presentation"
+                style="width: 1.6em; height: 1.6em;"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"
+                  style="fill: currentColor;"
+                />
+              </svg>
+            </button>
+            <button
+              class="sc-iBdoyZ sc-fsYfxw coKrmd cTCBIB"
+            >
+              <svg
+                role="presentation"
+                style="width: 1.6em; height: 1.6em;"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9,3V4H4V6H5V19A2,2 0 0,0 7,21H17A2,2 0 0,0 19,19V6H20V4H15V3H9M7,6H17V19H7V6M9,8V17H11V8H9M13,8V17H15V8H13Z"
+                  style="fill: currentColor;"
+                />
+              </svg>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <form>
+      <table
+        class="sc-hLQTFJ gWdLkF"
+      >
+        <tbody>
+          <tr
+            class="sc-jTQDJr bvqaGQ"
+          >
+            <td
+              class="sc-eDLKEg sc-gLLuHO gVlCde cRpsBe"
+            >
+              <input
+                autocomplete="off"
+                class="sc-jsEeA-d fpaWtY"
+                data-1pignore="true"
+                name="name"
+                type="text"
+              />
+            </td>
+            <td
+              class="sc-eDLKEg sc-gLLuHO gVlCde cRpsBe"
+            >
+              <input
+                autocomplete="off"
+                class="sc-jsEeA-d fpaWtY"
+                data-1pignore="true"
+                name="manufacturer"
+                type="text"
+              />
+            </td>
+            <td
+              class="sc-eDLKEg sc-gLLuHO eBJZcU cRpsBe"
+            >
+              <input
+                autocomplete="off"
+                class="sc-jsEeA-d fpaWtY"
+                data-1pignore="true"
+                name="stockLevel"
+                type="number"
+              />
+            </td>
+            <td
+              class="sc-eDLKEg sc-gLLuHO sc-590c3d-0 bgfuxj cRpsBe bEAkWe"
+            >
+              <button
+                class="sc-iBdoyZ sc-fsYfxw coKrmd cTCBIB"
+                disabled=""
+                type="submit"
+              >
+                <svg
+                  role="presentation"
+                  style="width: 1.6em; height: 1.6em;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                    style="fill: currentColor;"
+                  />
+                </svg>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
