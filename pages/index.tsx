@@ -41,7 +41,6 @@ const Home = () => {
             onClick={handleSubmit}
             onKeyUp={(e: React.KeyboardEvent) => {
               e.key === "Enter" && handleSubmit();
-              console.log(e.key);
             }}
           >
             Login

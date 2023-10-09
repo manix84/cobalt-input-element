@@ -151,7 +151,6 @@ export const Input = ({
           curErrors["required"] = ERRORS["required"];
           return curErrors;
         });
-        console.log(errors);
       } else {
         setErrors((curErrors) => {
           delete curErrors["required"];
