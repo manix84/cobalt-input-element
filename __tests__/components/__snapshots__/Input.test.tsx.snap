@@ -1952,6 +1952,385 @@ exports[`Input renders \`placeholder\` in component unchanged 1`] = `
 }
 `;
 
+exports[`Input renders \`showPasswordToggle\` in component unchanged 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: flex;
+  position: relative;
+  flex: 1;
+}
+
+.c1 {
+  display: flex;
+  flex: 1;
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(35, 46, 54);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+      >
+        <div
+          class="c1"
+          data-cursor-type="phase"
+          data-has-errors="false"
+          data-testid=""
+          tabindex="0"
+        >
+          <div
+            class="c2"
+          >
+            <span
+              class="c3"
+              data-character-id="0"
+              data-cursor="false"
+            >
+              ​
+            </span>
+            <span
+              class="c3"
+              data-character-id="1"
+              data-cursor="false"
+            >
+              P
+            </span>
+            <span
+              class="c3"
+              data-character-id="2"
+              data-cursor="false"
+            >
+              a
+            </span>
+            <span
+              class="c3"
+              data-character-id="3"
+              data-cursor="false"
+            >
+              s
+            </span>
+            <span
+              class="c3"
+              data-character-id="4"
+              data-cursor="false"
+            >
+              s
+            </span>
+            <span
+              class="c3"
+              data-character-id="5"
+              data-cursor="false"
+            >
+              w
+            </span>
+            <span
+              class="c3"
+              data-character-id="6"
+              data-cursor="false"
+            >
+              o
+            </span>
+            <span
+              class="c3"
+              data-character-id="7"
+              data-cursor="false"
+            >
+              r
+            </span>
+            <span
+              class="c3"
+              data-character-id="8"
+              data-cursor="true"
+            >
+              d
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: flex;
+  position: relative;
+  flex: 1;
+}
+
+.c1 {
+  display: flex;
+  flex: 1;
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(35, 46, 54);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<div>
+    <div
+      class="c0"
+    >
+      <div
+        class="c1"
+        data-cursor-type="phase"
+        data-has-errors="false"
+        data-testid=""
+        tabindex="0"
+      >
+        <div
+          class="c2"
+        >
+          <span
+            class="c3"
+            data-character-id="0"
+            data-cursor="false"
+          >
+            ​
+          </span>
+          <span
+            class="c3"
+            data-character-id="1"
+            data-cursor="false"
+          >
+            P
+          </span>
+          <span
+            class="c3"
+            data-character-id="2"
+            data-cursor="false"
+          >
+            a
+          </span>
+          <span
+            class="c3"
+            data-character-id="3"
+            data-cursor="false"
+          >
+            s
+          </span>
+          <span
+            class="c3"
+            data-character-id="4"
+            data-cursor="false"
+          >
+            s
+          </span>
+          <span
+            class="c3"
+            data-character-id="5"
+            data-cursor="false"
+          >
+            w
+          </span>
+          <span
+            class="c3"
+            data-character-id="6"
+            data-cursor="false"
+          >
+            o
+          </span>
+          <span
+            class="c3"
+            data-character-id="7"
+            data-cursor="false"
+          >
+            r
+          </span>
+          <span
+            class="c3"
+            data-character-id="8"
+            data-cursor="true"
+          >
+            d
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`Input renders \`style\` in component unchanged 1`] = `
 {
   "asFragment": [Function],

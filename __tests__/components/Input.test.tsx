@@ -25,6 +25,13 @@ describe("Input", () => {
     expect(input).toMatchSnapshot();
   });
 
+  test("renders `showPasswordToggle` in component unchanged", () => {
+    const input = render(
+      <Input type={"password"} value={"Password"} showPassword />
+    );
+    expect(input).toMatchSnapshot();
+  });
+
   test("renders `value` in component unchanged", () => {
     const input = render(<Input value={"Value"} />);
     expect(input).toMatchSnapshot();
