@@ -30,7 +30,7 @@ This is a technical test, written in a little over 12 hours (broken up by housew
 
 ## Design Considerations
 
-### Important Points
+### Important Points
 
 - Cursor/Caret shown when the UI Input component is focussed.
 - Ability to show/hide the characters.
@@ -52,7 +52,7 @@ First of all, decission needs to be made as to how close the component should co
 - https://github.com/manix84/cobalt-input-element/blob/main/components/Input.jsx
   - Tests: https://github.com/manix84/cobalt-input-element/blob/main/__tests__/pages/index.test.tsx
 
-### Notes
+### Notes
 
 - The Cursor/Caret has mutliple options, including "phase"/"smooth"/"blink"/"solid". These use a custom animation.
 - The last Password Character delay is controlled by an input, with a default of 0ms. I'm using 1 second (1000ms), but it could be given a longer default, or hard coded if neccessary.
