@@ -6,7 +6,7 @@ import ShowCharsDarkImg from "../public/components/Input/showChars.dark.png";
 import ShowCharsLightImg from "../public/components/Input/showChars.light.png";
 
 const ERRORS = { required: "Field is required" };
-const PASSWORD_CHAR = "•";
+export const PASSWORD_CHAR = "•";
 let delayedPasswordCharacterTimeout;
 
 export const Input = ({

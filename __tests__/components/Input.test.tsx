@@ -1,7 +1,7 @@
 /**
  * @jest-environment jsdom
  */
-import Input from "@/components/Input";
+import Input, { PASSWORD_CHAR as P } from "@/components/Input";
 import { fireEvent, render, waitFor } from "@testing-library/react";
 
 describe("Input", () => {
@@ -83,11 +83,11 @@ describe("Input", () => {
     fireEvent.keyDown(getByTestId("test"), { key: "B" });
     fireEvent.keyDown(getByTestId("test"), { key: "C" });
     fireEvent.keyDown(getByTestId("test"), { key: "D" });
-    expect(getByTestId("test").textContent).toMatch("•••D");
+    expect(getByTestId("test").textContent).toMatch(`${P}${P}${P}D`);
     await waitFor(() => {
       jest.advanceTimersByTime(10);
       setTimeout(async () => {
-        expect(getByTestId("test").textContent).toMatch("••••");
+        expect(getByTestId("test").textContent).toMatch(`${P}${P}${P}${P}`);
       }, 10);
     });
   });
@@ -101,7 +101,7 @@ describe("Input", () => {
     fireEvent.keyDown(getByTestId("test"), { key: "C" });
     fireEvent.keyDown(getByTestId("test"), { key: "D" });
 
-    expect(getByTestId("test").textContent).toMatch("••••");
+    expect(getByTestId("test").textContent).toMatch(`${P}${P}${P}${P}`);
   });
 
   test("`<HideCharToggle />` souldn't be present, if `showPasswordToggle` is disabled.", () => {
@@ -129,7 +129,7 @@ describe("Input", () => {
         showPasswordToggle
       />
     );
-    expect(getByTestId("test").textContent).toMatch("•••••");
+    expect(getByTestId("test").textContent).toMatch(`${P}${P}${P}${P}${P}`);
     fireEvent.click(getByTestId("test_toggle"));
     expect(getByTestId("test").textContent).toMatch("Value");
   });
