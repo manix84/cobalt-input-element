@@ -25,11 +25,6 @@ describe("Input", () => {
     expect(input).toMatchSnapshot();
   });
 
-  test("renders `showPasswordToggle` in component unchanged", () => {
-    const input = render(<Input type={"password"} showPasswordToggle />);
-    expect(input).toMatchSnapshot();
-  });
-
   test("renders `value` in component unchanged", () => {
     const input = render(<Input value={"Value"} />);
     expect(input).toMatchSnapshot();
@@ -102,35 +97,5 @@ describe("Input", () => {
     fireEvent.keyDown(getByTestId("test"), { key: "D" });
 
     expect(getByTestId("test").textContent).toMatch(`${P}${P}${P}${P}`);
-  });
-
-  test("`<HideCharToggle />` souldn't be present, if `showPasswordToggle` is disabled.", () => {
-    const { queryByTestId } = render(
-      <Input type={"password"} testId={"test"} />
-    );
-    expect(queryByTestId("test_toggle")).not.toBeInTheDocument();
-  });
-
-  test("`<HideCharToggle />` sould be present, if `showPasswordToggle` is enabled.", () => {
-    const { getByTestId } = render(
-      <Input type={"password"} testId={"test"} showPasswordToggle />
-    );
-    expect(getByTestId("test_toggle")).toBeInTheDocument();
-  });
-
-  test("clicking `<HideCharToggle />` should toggle hiding password characters.", () => {
-    jest.useFakeTimers();
-    window.HTMLElement.prototype.scrollIntoView = () => {};
-    const { getByTestId } = render(
-      <Input
-        value={"Value"}
-        type={"password"}
-        testId={"test"}
-        showPasswordToggle
-      />
-    );
-    expect(getByTestId("test").textContent).toMatch(`${P}${P}${P}${P}${P}`);
-    fireEvent.click(getByTestId("test_toggle"));
-    expect(getByTestId("test").textContent).toMatch("Value");
   });
 });

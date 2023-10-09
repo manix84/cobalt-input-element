@@ -1,9 +1,5 @@
 import { createRef, useEffect, useState } from "react";
 import styled, { keyframes } from "styled-components";
-import HideCharsDarkImg from "../public/components/Input/hideChars.dark.png";
-import HideCharsLightImg from "../public/components/Input/hideChars.light.png";
-import ShowCharsDarkImg from "../public/components/Input/showChars.dark.png";
-import ShowCharsLightImg from "../public/components/Input/showChars.light.png";
 
 const ERRORS = { required: "Field is required" };
 export const PASSWORD_CHAR = "•";
@@ -15,7 +11,7 @@ export const Input = ({
   style = {},
   className = "",
   passwordCharDelay = 0,
-  showPasswordToggle = false,
+  showPassword = false,
   cursorBlink = "phase",
   placeholder = "",
   required = false,
@@ -33,6 +29,10 @@ export const Input = ({
   const [hideLastChar, setHideLastChar] = useState(true);
   const [isDirty, setIsDirty] = useState(false);
   const [errors, setErrors] = useState({});
+
+  useEffect(() => {
+    setHideValue(!showPassword && type === "password");
+  }, [showPassword]);
 
   /**
    * Handle the Backspace being pressed.
@@ -108,10 +108,6 @@ export const Input = ({
       );
     }
   };
-  /**
-   * Handle clicking the show/hide characters button, when type is "password".
-   */
-  const handleToggleHideValue = () => setHideValue((curVal) => !curVal);
 
   /**
    * Handle any button being pressed.
@@ -202,15 +198,6 @@ export const Input = ({
                 </Character>
               );
             })}
-          {type === "password" && showPasswordToggle ? (
-            <HideCharsToggle
-              data-show-chars={hideValue}
-              data-testid={testId ? `${testId}_toggle` : undefined}
-              onClick={handleToggleHideValue}
-            />
-          ) : (
-            <></>
-          )}
         </TextDisplay>
       </MainElement>
       {Object.keys(errors).length ? (
@@ -243,10 +230,14 @@ const phaseAnimation = keyframes`
 `;
 
 const Container = styled.div`
+  display: flex;
   position: relative;
+  flex: 1;
 `;
 
 const MainElement = styled.div.attrs({ tabIndex: 0 })`
+  display: flex;
+  flex: 1;
   outline: 0 none;
   border: 1px solid currentColor;
   border-radius: 4px;
@@ -256,7 +247,7 @@ const MainElement = styled.div.attrs({ tabIndex: 0 })`
   &:focus {
     outline: 4px solid rgb(75, 150, 255);
     @media (prefers-color-scheme: dark) {
-      outline: 4px solid rgb(25, 100, 150);
+      outline: 4px solid rgb(35, 46, 54);
     }
   }
   &[data-has-errors="true"] {
@@ -309,30 +300,6 @@ const Character = styled.span`
   }
   [data-cursor-type="phase"]:focus &[data-cursor="true"] {
     animation-duration: 1.5s;
-  }
-`;
-
-const HideCharsToggle = styled.div`
-  display: inline-flex;
-  align-self: center;
-  cursor: pointer;
-  margin-left: auto;
-  height: 1em;
-  width: 1em;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  &[data-show-chars="true"] {
-    background-image: url(${ShowCharsLightImg.src});
-    @media (prefers-color-scheme: dark) {
-      background-image: url(${ShowCharsDarkImg.src});
-    }
-  }
-  &[data-show-chars="false"] {
-    background-image: url(${HideCharsLightImg.src});
-    @media (prefers-color-scheme: dark) {
-      background-image: url(${HideCharsDarkImg.src});
-    }
   }
 `;
 

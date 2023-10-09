@@ -1,16 +1,20 @@
 import { useState } from "react";
 import styled from "styled-components";
+import HideCharsToggle from "../components/HideCharsToggle";
 import Input from "../components/Input";
 
 const Home = () => {
   const [username, setUsername] = useState<string>("");
   const [password, setPassword] = useState<string>("");
+  const [passwordVisible, setPasswordVisible] = useState<boolean>(false);
   const [submission, setSubmission] = useState<{ [key: string]: string }>({
     username,
     password,
   });
 
   const handleSubmit = () => setSubmission({ username, password });
+  const handleIsPasswordVisible = (isVisible: boolean) =>
+    setPasswordVisible(isVisible);
 
   return (
     <Container>
@@ -27,16 +31,24 @@ const Home = () => {
               width: 300px;
             `}
           />
-          <Input
-            value={password}
-            placeholder={"Password"}
-            showPasswordToggle
-            type={"password"}
-            passwordCharDelay={1000}
-            onChange={({ value }) => setPassword(value)}
-            onSubmit={handleSubmit}
-            required
-          />
+          <Line>
+            <Input
+              value={password}
+              placeholder={"Password"}
+              type={"password"}
+              passwordCharDelay={1000}
+              showPassword={passwordVisible}
+              onChange={({ value }) => setPassword(value)}
+              onSubmit={handleSubmit}
+              required
+            />
+            <HideCharsToggle
+              onChange={handleIsPasswordVisible}
+              css={`
+                flex: 0;
+              `}
+            />
+          </Line>
           <Button
             onClick={handleSubmit}
             onKeyUp={(e: React.KeyboardEvent) => {
@@ -62,6 +74,12 @@ const Form = styled.div`
 const Container = styled.div`
   padding: 0 2rem;
   flex: 1;
+`;
+
+const Line = styled.div`
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 `;
 
 const Main = styled.div`
