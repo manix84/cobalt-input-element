@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import Input from "@/components/Input";
-import Home from "@/pages/index";
+import Home from "@/pages/index.origin";
 import { render } from "@testing-library/react";
 
 it("renders homepage unchanged", () => {

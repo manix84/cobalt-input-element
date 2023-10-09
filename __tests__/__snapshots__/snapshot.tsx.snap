@@ -4,10 +4,14 @@ exports[`renders basic Input components unchanged 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c0 {
+  display: flex;
   position: relative;
+  flex: 1;
 }
 
 .c1 {
+  display: flex;
+  flex: 1;
   outline: 0 none;
   border: 1px solid currentColor;
   border-radius: 4px;
@@ -68,7 +72,7 @@ exports[`renders basic Input components unchanged 1`] = `
 
 @media (prefers-color-scheme: dark) {
   .c1:focus {
-    outline: 4px solid rgb(25, 100, 150);
+    outline: 4px solid rgb(35, 46, 54);
   }
 }
 
@@ -106,10 +110,14 @@ exports[`renders basic Input components unchanged 1`] = `
     </div>
   </body>,
   "container": .c0 {
+  display: flex;
   position: relative;
+  flex: 1;
 }
 
 .c1 {
+  display: flex;
+  flex: 1;
   outline: 0 none;
   border: 1px solid currentColor;
   border-radius: 4px;
@@ -170,7 +178,7 @@ exports[`renders basic Input components unchanged 1`] = `
 
 @media (prefers-color-scheme: dark) {
   .c1:focus {
-    outline: 4px solid rgb(25, 100, 150);
+    outline: 4px solid rgb(35, 46, 54);
   }
 }
 
@@ -263,10 +271,14 @@ exports[`renders homepage unchanged 1`] = `
 {
   "asFragment": [Function],
   "baseElement": .c4 {
+  display: flex;
   position: relative;
+  flex: 1;
 }
 
 .c5 {
+  display: flex;
+  flex: 1;
   outline: 0 none;
   border: 1px solid currentColor;
   border-radius: 4px;
@@ -334,23 +346,27 @@ exports[`renders homepage unchanged 1`] = `
   animation-duration: 1.5s;
 }
 
-.c10 {
-  display: inline-flex;
-  align-self: center;
+.c11 {
   cursor: pointer;
-  margin-left: auto;
-  height: 1em;
-  width: 1em;
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+}
+
+.c13 {
+  display: block;
+  height: 25px;
+  width: 25px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.c10[data-show-chars="true"] {
+[data-is-visible="true"] .c13 {
   background-image: url(/img.jpg);
 }
 
-.c10[data-show-chars="false"] {
+[data-is-visible="false"] .c13 {
   background-image: url(/img.jpg);
 }
 
@@ -363,6 +379,12 @@ exports[`renders homepage unchanged 1`] = `
 .c0 {
   padding: 0 2rem;
   flex: 1;
+}
+
+.c10 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
 
 .c1 {
@@ -392,7 +414,7 @@ exports[`renders homepage unchanged 1`] = `
   text-decoration: underline;
 }
 
-.c11 {
+.c14 {
   cursor: pointer;
   border: 1px solid currentColor;
   border-radius: 4px;
@@ -401,12 +423,16 @@ exports[`renders homepage unchanged 1`] = `
   user-select: none;
 }
 
-.c11:focus {
+.c14:focus {
   outline: 4px solid rgb(75, 150, 255);
 }
 
-.c12 {
+.c15 {
   font-family: monospace;
+}
+
+.c12 {
+  flex: 0;
 }
 
 .c6 {
@@ -415,7 +441,7 @@ exports[`renders homepage unchanged 1`] = `
 
 @media (prefers-color-scheme: dark) {
   .c5:focus {
-    outline: 4px solid rgb(25, 100, 150);
+    outline: 4px solid rgb(35, 46, 54);
   }
 }
 
@@ -426,19 +452,19 @@ exports[`renders homepage unchanged 1`] = `
 }
 
 @media (prefers-color-scheme: dark) {
-  .c10[data-show-chars="true"] {
+  [data-is-visible="true"] .c13 {
     background-image: url(/img.jpg);
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .c10[data-show-chars="false"] {
+  [data-is-visible="false"] .c13 {
     background-image: url(/img.jpg);
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .c11:focus {
+  .c14:focus {
     outline: 4px solid rgb(25, 100, 150);
   }
 }
@@ -489,46 +515,54 @@ exports[`renders homepage unchanged 1`] = `
               </div>
             </div>
             <div
-              class="c4"
+              class="c10"
             >
               <div
-                class="c5"
-                data-cursor-type="phase"
-                data-has-errors="false"
-                data-testid=""
-                tabindex="0"
+                class="c4"
               >
                 <div
-                  class="c7"
+                  class="c5"
+                  data-cursor-type="phase"
+                  data-has-errors="false"
+                  data-testid=""
+                  tabindex="0"
                 >
-                  <span
-                    class="c8"
-                  >
-                    Password
-                  </span>
-                  <span
-                    class="c9"
-                    data-character-id="0"
-                    data-cursor="true"
-                  >
-                    ​
-                  </span>
                   <div
-                    class="c10"
-                    data-show-chars="true"
-                  />
+                    class="c7"
+                  >
+                    <span
+                      class="c8"
+                    >
+                      Password
+                    </span>
+                    <span
+                      class="c9"
+                      data-character-id="0"
+                      data-cursor="true"
+                    >
+                      ​
+                    </span>
+                  </div>
                 </div>
+              </div>
+              <div
+                class="c11 c12"
+                data-is-visible="false"
+              >
+                <div
+                  class="c13"
+                />
               </div>
             </div>
             <div
-              class="c11"
+              class="c14"
               tabindex="0"
             >
               Login
             </div>
           </div>
           <div
-            class="c12"
+            class="c15"
           >
             {
     "username": "",
@@ -540,10 +574,14 @@ exports[`renders homepage unchanged 1`] = `
     </div>
   </body>,
   "container": .c4 {
+  display: flex;
   position: relative;
+  flex: 1;
 }
 
 .c5 {
+  display: flex;
+  flex: 1;
   outline: 0 none;
   border: 1px solid currentColor;
   border-radius: 4px;
@@ -611,23 +649,27 @@ exports[`renders homepage unchanged 1`] = `
   animation-duration: 1.5s;
 }
 
-.c10 {
-  display: inline-flex;
-  align-self: center;
+.c11 {
   cursor: pointer;
-  margin-left: auto;
-  height: 1em;
-  width: 1em;
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+}
+
+.c13 {
+  display: block;
+  height: 25px;
+  width: 25px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.c10[data-show-chars="true"] {
+[data-is-visible="true"] .c13 {
   background-image: url(/img.jpg);
 }
 
-.c10[data-show-chars="false"] {
+[data-is-visible="false"] .c13 {
   background-image: url(/img.jpg);
 }
 
@@ -640,6 +682,12 @@ exports[`renders homepage unchanged 1`] = `
 .c0 {
   padding: 0 2rem;
   flex: 1;
+}
+
+.c10 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
 
 .c1 {
@@ -669,7 +717,7 @@ exports[`renders homepage unchanged 1`] = `
   text-decoration: underline;
 }
 
-.c11 {
+.c14 {
   cursor: pointer;
   border: 1px solid currentColor;
   border-radius: 4px;
@@ -678,12 +726,16 @@ exports[`renders homepage unchanged 1`] = `
   user-select: none;
 }
 
-.c11:focus {
+.c14:focus {
   outline: 4px solid rgb(75, 150, 255);
 }
 
-.c12 {
+.c15 {
   font-family: monospace;
+}
+
+.c12 {
+  flex: 0;
 }
 
 .c6 {
@@ -692,7 +744,7 @@ exports[`renders homepage unchanged 1`] = `
 
 @media (prefers-color-scheme: dark) {
   .c5:focus {
-    outline: 4px solid rgb(25, 100, 150);
+    outline: 4px solid rgb(35, 46, 54);
   }
 }
 
@@ -703,19 +755,19 @@ exports[`renders homepage unchanged 1`] = `
 }
 
 @media (prefers-color-scheme: dark) {
-  .c10[data-show-chars="true"] {
+  [data-is-visible="true"] .c13 {
     background-image: url(/img.jpg);
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .c10[data-show-chars="false"] {
+  [data-is-visible="false"] .c13 {
     background-image: url(/img.jpg);
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .c11:focus {
+  .c14:focus {
     outline: 4px solid rgb(25, 100, 150);
   }
 }
@@ -765,46 +817,54 @@ exports[`renders homepage unchanged 1`] = `
             </div>
           </div>
           <div
-            class="c4"
+            class="c10"
           >
             <div
-              class="c5"
-              data-cursor-type="phase"
-              data-has-errors="false"
-              data-testid=""
-              tabindex="0"
+              class="c4"
             >
               <div
-                class="c7"
+                class="c5"
+                data-cursor-type="phase"
+                data-has-errors="false"
+                data-testid=""
+                tabindex="0"
               >
-                <span
-                  class="c8"
-                >
-                  Password
-                </span>
-                <span
-                  class="c9"
-                  data-character-id="0"
-                  data-cursor="true"
-                >
-                  ​
-                </span>
                 <div
-                  class="c10"
-                  data-show-chars="true"
-                />
+                  class="c7"
+                >
+                  <span
+                    class="c8"
+                  >
+                    Password
+                  </span>
+                  <span
+                    class="c9"
+                    data-character-id="0"
+                    data-cursor="true"
+                  >
+                    ​
+                  </span>
+                </div>
               </div>
+            </div>
+            <div
+              class="c11 c12"
+              data-is-visible="false"
+            >
+              <div
+                class="c13"
+              />
             </div>
           </div>
           <div
-            class="c11"
+            class="c14"
             tabindex="0"
           >
             Login
           </div>
         </div>
         <div
-          class="c12"
+          class="c15"
         >
           {
     "username": "",

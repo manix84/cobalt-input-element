@@ -1,7 +1,7 @@
 /**
  * @jest-environment jsdom
  */
-import Home from "@/pages/index";
+import Home from "@/pages/index.origin";
 import { render, screen } from "@testing-library/react";
 
 describe("Home", () => {
