@@ -3,23 +3,98 @@
 exports[`renders basic Input components unchanged 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<body>
     <div>
       <div
-        class="sc-74661f0c-0 bDfjcy"
+        class="c0"
       >
         <div
-          class="sc-74661f0c-1 eUeMxO"
+          class="c1"
           data-cursor-type="phase"
           data-has-errors="false"
           data-testid=""
           tabindex="0"
         >
           <div
-            class="sc-74661f0c-2 jpIcsi"
+            class="c2"
           >
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="0"
               data-cursor="true"
             >
@@ -30,22 +105,97 @@ exports[`renders basic Input components unchanged 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<div>
     <div
-      class="sc-74661f0c-0 bDfjcy"
+      class="c0"
     >
       <div
-        class="sc-74661f0c-1 eUeMxO"
+        class="c1"
         data-cursor-type="phase"
         data-has-errors="false"
         data-testid=""
         tabindex="0"
       >
         <div
-          class="sc-74661f0c-2 jpIcsi"
+          class="c2"
         >
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="0"
             data-cursor="true"
           >
@@ -112,43 +262,224 @@ exports[`renders basic Input components unchanged 1`] = `
 exports[`renders homepage unchanged 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c4 {
+  position: relative;
+}
+
+.c5 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c5:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c5[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c7 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c8 {
+  opacity: 50%;
+  color: currentColor;
+}
+
+:focus .c8 {
+  display: none;
+}
+
+.c9 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c9[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c9[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c9[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c9[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c9[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c9[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c9[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+.c10 {
+  display: inline-flex;
+  align-self: center;
+  cursor: pointer;
+  margin-left: auto;
+  height: 1em;
+  width: 1em;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.c10[data-show-chars="true"] {
+  background-image: url(/img.jpg);
+}
+
+.c10[data-show-chars="false"] {
+  background-image: url(/img.jpg);
+}
+
+.c3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.c0 {
+  padding: 0 2rem;
+  flex: 1;
+}
+
+.c1 {
+  padding: 4rem 0;
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.c2 {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.c2 a {
+  color: rgb(0, 112, 243);
+  text-decoration: none;
+}
+
+.c2 a:hover,
+.c2 a:focus,
+.c2 a:active {
+  text-decoration: underline;
+}
+
+.c11 {
+  cursor: pointer;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 2px 8px;
+  user-select: none;
+}
+
+.c11:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c12 {
+  font-family: monospace;
+}
+
+.c6 {
+  width: 300px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c5:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c5[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c10[data-show-chars="true"] {
+    background-image: url(/img.jpg);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c10[data-show-chars="false"] {
+    background-image: url(/img.jpg);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c11:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+<body>
     <div>
       <div
-        class="sc-69456e6e-1 ixuwIj"
+        class="c0"
       >
         <div
-          class="sc-69456e6e-2 ebEoZg"
+          class="c1"
         >
           <div
-            class="sc-69456e6e-3 kPRhRV"
+            class="c2"
             role="heading"
           >
             Cobalt Input Element
           </div>
           <div
-            class="sc-69456e6e-0 iMMezv"
+            class="c3"
           >
             <div
-              class="sc-74661f0c-0 bDfjcy"
+              class="c4"
             >
               <div
-                class="sc-74661f0c-1 eUeMxO sc-69456e6e-6 dwvZJd"
+                class="c5 c6"
                 data-cursor-type="phase"
                 data-has-errors="false"
                 data-testid=""
                 tabindex="0"
               >
                 <div
-                  class="sc-74661f0c-2 jpIcsi"
+                  class="c7"
                 >
                   <span
-                    class="sc-74661f0c-3 fsiXOy"
+                    class="c8"
                   >
                     Username
                   </span>
                   <span
-                    class="sc-74661f0c-4 erhQzS"
+                    class="c9"
                     data-character-id="0"
                     data-cursor="true"
                   >
@@ -158,46 +489,46 @@ exports[`renders homepage unchanged 1`] = `
               </div>
             </div>
             <div
-              class="sc-74661f0c-0 bDfjcy"
+              class="c4"
             >
               <div
-                class="sc-74661f0c-1 eUeMxO"
+                class="c5"
                 data-cursor-type="phase"
                 data-has-errors="false"
                 data-testid=""
                 tabindex="0"
               >
                 <div
-                  class="sc-74661f0c-2 jpIcsi"
+                  class="c7"
                 >
                   <span
-                    class="sc-74661f0c-3 fsiXOy"
+                    class="c8"
                   >
                     Password
                   </span>
                   <span
-                    class="sc-74661f0c-4 erhQzS"
+                    class="c9"
                     data-character-id="0"
                     data-cursor="true"
                   >
                     ​
                   </span>
                   <div
-                    class="sc-74661f0c-5 gEgYzw"
+                    class="c10"
                     data-show-chars="true"
                   />
                 </div>
               </div>
             </div>
             <div
-              class="sc-69456e6e-4 fblyeN"
+              class="c11"
               tabindex="0"
             >
               Login
             </div>
           </div>
           <div
-            class="sc-69456e6e-5 jmJcUg"
+            class="c12"
           >
             {
     "username": "",
@@ -208,42 +539,223 @@ exports[`renders homepage unchanged 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c4 {
+  position: relative;
+}
+
+.c5 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c5:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c5[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c7 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c8 {
+  opacity: 50%;
+  color: currentColor;
+}
+
+:focus .c8 {
+  display: none;
+}
+
+.c9 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c9[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c9[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c9[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c9[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c9[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c9[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c9[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+.c10 {
+  display: inline-flex;
+  align-self: center;
+  cursor: pointer;
+  margin-left: auto;
+  height: 1em;
+  width: 1em;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.c10[data-show-chars="true"] {
+  background-image: url(/img.jpg);
+}
+
+.c10[data-show-chars="false"] {
+  background-image: url(/img.jpg);
+}
+
+.c3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.c0 {
+  padding: 0 2rem;
+  flex: 1;
+}
+
+.c1 {
+  padding: 4rem 0;
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.c2 {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.c2 a {
+  color: rgb(0, 112, 243);
+  text-decoration: none;
+}
+
+.c2 a:hover,
+.c2 a:focus,
+.c2 a:active {
+  text-decoration: underline;
+}
+
+.c11 {
+  cursor: pointer;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 2px 8px;
+  user-select: none;
+}
+
+.c11:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c12 {
+  font-family: monospace;
+}
+
+.c6 {
+  width: 300px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c5:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c5[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c10[data-show-chars="true"] {
+    background-image: url(/img.jpg);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c10[data-show-chars="false"] {
+    background-image: url(/img.jpg);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c11:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+<div>
     <div
-      class="sc-69456e6e-1 ixuwIj"
+      class="c0"
     >
       <div
-        class="sc-69456e6e-2 ebEoZg"
+        class="c1"
       >
         <div
-          class="sc-69456e6e-3 kPRhRV"
+          class="c2"
           role="heading"
         >
           Cobalt Input Element
         </div>
         <div
-          class="sc-69456e6e-0 iMMezv"
+          class="c3"
         >
           <div
-            class="sc-74661f0c-0 bDfjcy"
+            class="c4"
           >
             <div
-              class="sc-74661f0c-1 eUeMxO sc-69456e6e-6 dwvZJd"
+              class="c5 c6"
               data-cursor-type="phase"
               data-has-errors="false"
               data-testid=""
               tabindex="0"
             >
               <div
-                class="sc-74661f0c-2 jpIcsi"
+                class="c7"
               >
                 <span
-                  class="sc-74661f0c-3 fsiXOy"
+                  class="c8"
                 >
                   Username
                 </span>
                 <span
-                  class="sc-74661f0c-4 erhQzS"
+                  class="c9"
                   data-character-id="0"
                   data-cursor="true"
                 >
@@ -253,46 +765,46 @@ exports[`renders homepage unchanged 1`] = `
             </div>
           </div>
           <div
-            class="sc-74661f0c-0 bDfjcy"
+            class="c4"
           >
             <div
-              class="sc-74661f0c-1 eUeMxO"
+              class="c5"
               data-cursor-type="phase"
               data-has-errors="false"
               data-testid=""
               tabindex="0"
             >
               <div
-                class="sc-74661f0c-2 jpIcsi"
+                class="c7"
               >
                 <span
-                  class="sc-74661f0c-3 fsiXOy"
+                  class="c8"
                 >
                   Password
                 </span>
                 <span
-                  class="sc-74661f0c-4 erhQzS"
+                  class="c9"
                   data-character-id="0"
                   data-cursor="true"
                 >
                   ​
                 </span>
                 <div
-                  class="sc-74661f0c-5 gEgYzw"
+                  class="c10"
                   data-show-chars="true"
                 />
               </div>
             </div>
           </div>
           <div
-            class="sc-69456e6e-4 fblyeN"
+            class="c11"
             tabindex="0"
           >
             Login
           </div>
         </div>
         <div
-          class="sc-69456e6e-5 jmJcUg"
+          class="c12"
         >
           {
     "username": "",

@@ -3,23 +3,98 @@
 exports[`Input renders \`className\` in component unchanged 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<body>
     <div>
       <div
-        class="sc-74661f0c-0 bDfjcy"
+        class="c0"
       >
         <div
-          class="sc-74661f0c-1 eUeMxO className"
+          class="c1 className"
           data-cursor-type="phase"
           data-has-errors="false"
           data-testid=""
           tabindex="0"
         >
           <div
-            class="sc-74661f0c-2 jpIcsi"
+            class="c2"
           >
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="0"
               data-cursor="true"
             >
@@ -30,22 +105,97 @@ exports[`Input renders \`className\` in component unchanged 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<div>
     <div
-      class="sc-74661f0c-0 bDfjcy"
+      class="c0"
     >
       <div
-        class="sc-74661f0c-1 eUeMxO className"
+        class="c1 className"
         data-cursor-type="phase"
         data-has-errors="false"
         data-testid=""
         tabindex="0"
       >
         <div
-          class="sc-74661f0c-2 jpIcsi"
+          class="c2"
         >
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="0"
             data-cursor="true"
           >
@@ -112,58 +262,133 @@ exports[`Input renders \`className\` in component unchanged 1`] = `
 exports[`Input renders \`focused\` in component unchanged 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<body>
     <div>
       <div
-        class="sc-74661f0c-0 bDfjcy"
+        class="c0"
       >
         <div
-          class="sc-74661f0c-1 eUeMxO"
+          class="c1"
           data-cursor-type="phase"
           data-has-errors="false"
           data-testid="test"
           tabindex="0"
         >
           <div
-            class="sc-74661f0c-2 jpIcsi"
+            class="c2"
           >
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="0"
               data-cursor="false"
             >
               ​
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="1"
               data-cursor="false"
             >
               V
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="2"
               data-cursor="false"
             >
               a
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="3"
               data-cursor="false"
             >
               l
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="4"
               data-cursor="false"
             >
               u
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="5"
               data-cursor="true"
             >
@@ -174,57 +399,132 @@ exports[`Input renders \`focused\` in component unchanged 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<div>
     <div
-      class="sc-74661f0c-0 bDfjcy"
+      class="c0"
     >
       <div
-        class="sc-74661f0c-1 eUeMxO"
+        class="c1"
         data-cursor-type="phase"
         data-has-errors="false"
         data-testid="test"
         tabindex="0"
       >
         <div
-          class="sc-74661f0c-2 jpIcsi"
+          class="c2"
         >
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="0"
             data-cursor="false"
           >
             ​
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="1"
             data-cursor="false"
           >
             V
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="2"
             data-cursor="false"
           >
             a
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="3"
             data-cursor="false"
           >
             l
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="4"
             data-cursor="false"
           >
             u
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="5"
             data-cursor="true"
           >
@@ -291,79 +591,154 @@ exports[`Input renders \`focused\` in component unchanged 1`] = `
 exports[`Input renders \`password\` and \`value\` in component unchanged 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<body>
     <div>
       <div
-        class="sc-74661f0c-0 bDfjcy"
+        class="c0"
       >
         <div
-          class="sc-74661f0c-1 eUeMxO"
+          class="c1"
           data-cursor-type="phase"
           data-has-errors="false"
           data-testid=""
           tabindex="0"
         >
           <div
-            class="sc-74661f0c-2 jpIcsi"
+            class="c2"
           >
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="0"
               data-cursor="false"
             >
               ​
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="1"
               data-cursor="false"
             >
               •
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="2"
               data-cursor="false"
             >
               •
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="3"
               data-cursor="false"
             >
               •
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="4"
               data-cursor="false"
             >
               •
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="5"
               data-cursor="false"
             >
               •
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="6"
               data-cursor="false"
             >
               •
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="7"
               data-cursor="false"
             >
               •
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="8"
               data-cursor="true"
             >
@@ -374,78 +749,153 @@ exports[`Input renders \`password\` and \`value\` in component unchanged 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<div>
     <div
-      class="sc-74661f0c-0 bDfjcy"
+      class="c0"
     >
       <div
-        class="sc-74661f0c-1 eUeMxO"
+        class="c1"
         data-cursor-type="phase"
         data-has-errors="false"
         data-testid=""
         tabindex="0"
       >
         <div
-          class="sc-74661f0c-2 jpIcsi"
+          class="c2"
         >
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="0"
             data-cursor="false"
           >
             ​
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="1"
             data-cursor="false"
           >
             •
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="2"
             data-cursor="false"
           >
             •
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="3"
             data-cursor="false"
           >
             •
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="4"
             data-cursor="false"
           >
             •
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="5"
             data-cursor="false"
           >
             •
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="6"
             data-cursor="false"
           >
             •
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="7"
             data-cursor="false"
           >
             •
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="8"
             data-cursor="true"
           >
@@ -512,58 +962,133 @@ exports[`Input renders \`password\` and \`value\` in component unchanged 1`] = `
 exports[`Input renders \`password\`, \`value\`, and \`placeholder\` in component unchanged 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<body>
     <div>
       <div
-        class="sc-74661f0c-0 bDfjcy"
+        class="c0"
       >
         <div
-          class="sc-74661f0c-1 eUeMxO"
+          class="c1"
           data-cursor-type="phase"
           data-has-errors="false"
           data-testid=""
           tabindex="0"
         >
           <div
-            class="sc-74661f0c-2 jpIcsi"
+            class="c2"
           >
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="0"
               data-cursor="false"
             >
               ​
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="1"
               data-cursor="false"
             >
               •
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="2"
               data-cursor="false"
             >
               •
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="3"
               data-cursor="false"
             >
               •
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="4"
               data-cursor="false"
             >
               •
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="5"
               data-cursor="true"
             >
@@ -574,57 +1099,132 @@ exports[`Input renders \`password\`, \`value\`, and \`placeholder\` in component
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<div>
     <div
-      class="sc-74661f0c-0 bDfjcy"
+      class="c0"
     >
       <div
-        class="sc-74661f0c-1 eUeMxO"
+        class="c1"
         data-cursor-type="phase"
         data-has-errors="false"
         data-testid=""
         tabindex="0"
       >
         <div
-          class="sc-74661f0c-2 jpIcsi"
+          class="c2"
         >
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="0"
             data-cursor="false"
           >
             ​
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="1"
             data-cursor="false"
           >
             •
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="2"
             data-cursor="false"
           >
             •
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="3"
             data-cursor="false"
           >
             •
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="4"
             data-cursor="false"
           >
             •
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="5"
             data-cursor="true"
           >
@@ -691,58 +1291,133 @@ exports[`Input renders \`password\`, \`value\`, and \`placeholder\` in component
 exports[`Input renders \`placeholder\` and \`value\` in component unchanged 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<body>
     <div>
       <div
-        class="sc-74661f0c-0 bDfjcy"
+        class="c0"
       >
         <div
-          class="sc-74661f0c-1 eUeMxO"
+          class="c1"
           data-cursor-type="phase"
           data-has-errors="false"
           data-testid=""
           tabindex="0"
         >
           <div
-            class="sc-74661f0c-2 jpIcsi"
+            class="c2"
           >
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="0"
               data-cursor="false"
             >
               ​
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="1"
               data-cursor="false"
             >
               V
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="2"
               data-cursor="false"
             >
               a
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="3"
               data-cursor="false"
             >
               l
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="4"
               data-cursor="false"
             >
               u
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="5"
               data-cursor="true"
             >
@@ -753,57 +1428,132 @@ exports[`Input renders \`placeholder\` and \`value\` in component unchanged 1`] 
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<div>
     <div
-      class="sc-74661f0c-0 bDfjcy"
+      class="c0"
     >
       <div
-        class="sc-74661f0c-1 eUeMxO"
+        class="c1"
         data-cursor-type="phase"
         data-has-errors="false"
         data-testid=""
         tabindex="0"
       >
         <div
-          class="sc-74661f0c-2 jpIcsi"
+          class="c2"
         >
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="0"
             data-cursor="false"
           >
             ​
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="1"
             data-cursor="false"
           >
             V
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="2"
             data-cursor="false"
           >
             a
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="3"
             data-cursor="false"
           >
             l
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="4"
             data-cursor="false"
           >
             u
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="5"
             data-cursor="true"
           >
@@ -870,28 +1620,112 @@ exports[`Input renders \`placeholder\` and \`value\` in component unchanged 1`] 
 exports[`Input renders \`placeholder\` in component unchanged 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  opacity: 50%;
+  color: currentColor;
+}
+
+:focus .c3 {
+  display: none;
+}
+
+.c4 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c4[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c4[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c4[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c4[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c4[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c4[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c4[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<body>
     <div>
       <div
-        class="sc-74661f0c-0 bDfjcy"
+        class="c0"
       >
         <div
-          class="sc-74661f0c-1 eUeMxO"
+          class="c1"
           data-cursor-type="phase"
           data-has-errors="false"
           data-testid=""
           tabindex="0"
         >
           <div
-            class="sc-74661f0c-2 jpIcsi"
+            class="c2"
           >
             <span
-              class="sc-74661f0c-3 fsiXOy"
+              class="c3"
             >
               PlaceHolder
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c4"
               data-character-id="0"
               data-cursor="true"
             >
@@ -902,27 +1736,111 @@ exports[`Input renders \`placeholder\` in component unchanged 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  opacity: 50%;
+  color: currentColor;
+}
+
+:focus .c3 {
+  display: none;
+}
+
+.c4 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c4[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c4[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c4[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c4[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c4[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c4[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c4[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<div>
     <div
-      class="sc-74661f0c-0 bDfjcy"
+      class="c0"
     >
       <div
-        class="sc-74661f0c-1 eUeMxO"
+        class="c1"
         data-cursor-type="phase"
         data-has-errors="false"
         data-testid=""
         tabindex="0"
       >
         <div
-          class="sc-74661f0c-2 jpIcsi"
+          class="c2"
         >
           <span
-            class="sc-74661f0c-3 fsiXOy"
+            class="c3"
           >
             PlaceHolder
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c4"
             data-character-id="0"
             data-cursor="true"
           >
@@ -989,30 +1907,137 @@ exports[`Input renders \`placeholder\` in component unchanged 1`] = `
 exports[`Input renders \`showPasswordToggle\` in component unchanged 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+.c4 {
+  display: inline-flex;
+  align-self: center;
+  cursor: pointer;
+  margin-left: auto;
+  height: 1em;
+  width: 1em;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.c4[data-show-chars="true"] {
+  background-image: url(/img.jpg);
+}
+
+.c4[data-show-chars="false"] {
+  background-image: url(/img.jpg);
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c4[data-show-chars="true"] {
+    background-image: url(/img.jpg);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c4[data-show-chars="false"] {
+    background-image: url(/img.jpg);
+  }
+}
+
+<body>
     <div>
       <div
-        class="sc-74661f0c-0 bDfjcy"
+        class="c0"
       >
         <div
-          class="sc-74661f0c-1 eUeMxO"
+          class="c1"
           data-cursor-type="phase"
           data-has-errors="false"
           data-testid=""
           tabindex="0"
         >
           <div
-            class="sc-74661f0c-2 jpIcsi"
+            class="c2"
           >
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="0"
               data-cursor="true"
             >
               ​
             </span>
             <div
-              class="sc-74661f0c-5 gEgYzw"
+              class="c4"
               data-show-chars="true"
             />
           </div>
@@ -1020,29 +2045,136 @@ exports[`Input renders \`showPasswordToggle\` in component unchanged 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+.c4 {
+  display: inline-flex;
+  align-self: center;
+  cursor: pointer;
+  margin-left: auto;
+  height: 1em;
+  width: 1em;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.c4[data-show-chars="true"] {
+  background-image: url(/img.jpg);
+}
+
+.c4[data-show-chars="false"] {
+  background-image: url(/img.jpg);
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c4[data-show-chars="true"] {
+    background-image: url(/img.jpg);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c4[data-show-chars="false"] {
+    background-image: url(/img.jpg);
+  }
+}
+
+<div>
     <div
-      class="sc-74661f0c-0 bDfjcy"
+      class="c0"
     >
       <div
-        class="sc-74661f0c-1 eUeMxO"
+        class="c1"
         data-cursor-type="phase"
         data-has-errors="false"
         data-testid=""
         tabindex="0"
       >
         <div
-          class="sc-74661f0c-2 jpIcsi"
+          class="c2"
         >
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="0"
             data-cursor="true"
           >
             ​
           </span>
           <div
-            class="sc-74661f0c-5 gEgYzw"
+            class="c4"
             data-show-chars="true"
           />
         </div>
@@ -1106,13 +2238,88 @@ exports[`Input renders \`showPasswordToggle\` in component unchanged 1`] = `
 exports[`Input renders \`style\` in component unchanged 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<body>
     <div>
       <div
-        class="sc-74661f0c-0 bDfjcy"
+        class="c0"
       >
         <div
-          class="sc-74661f0c-1 eUeMxO"
+          class="c1"
           data-cursor-type="phase"
           data-has-errors="false"
           data-testid=""
@@ -1120,10 +2327,10 @@ exports[`Input renders \`style\` in component unchanged 1`] = `
           tabindex="0"
         >
           <div
-            class="sc-74661f0c-2 jpIcsi"
+            class="c2"
           >
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="0"
               data-cursor="true"
             >
@@ -1134,12 +2341,87 @@ exports[`Input renders \`style\` in component unchanged 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<div>
     <div
-      class="sc-74661f0c-0 bDfjcy"
+      class="c0"
     >
       <div
-        class="sc-74661f0c-1 eUeMxO"
+        class="c1"
         data-cursor-type="phase"
         data-has-errors="false"
         data-testid=""
@@ -1147,10 +2429,10 @@ exports[`Input renders \`style\` in component unchanged 1`] = `
         tabindex="0"
       >
         <div
-          class="sc-74661f0c-2 jpIcsi"
+          class="c2"
         >
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="0"
             data-cursor="true"
           >
@@ -1217,58 +2499,133 @@ exports[`Input renders \`style\` in component unchanged 1`] = `
 exports[`Input renders \`value\` in component unchanged 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<body>
     <div>
       <div
-        class="sc-74661f0c-0 bDfjcy"
+        class="c0"
       >
         <div
-          class="sc-74661f0c-1 eUeMxO"
+          class="c1"
           data-cursor-type="phase"
           data-has-errors="false"
           data-testid=""
           tabindex="0"
         >
           <div
-            class="sc-74661f0c-2 jpIcsi"
+            class="c2"
           >
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="0"
               data-cursor="false"
             >
               ​
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="1"
               data-cursor="false"
             >
               V
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="2"
               data-cursor="false"
             >
               a
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="3"
               data-cursor="false"
             >
               l
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="4"
               data-cursor="false"
             >
               u
             </span>
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="5"
               data-cursor="true"
             >
@@ -1279,57 +2636,132 @@ exports[`Input renders \`value\` in component unchanged 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<div>
     <div
-      class="sc-74661f0c-0 bDfjcy"
+      class="c0"
     >
       <div
-        class="sc-74661f0c-1 eUeMxO"
+        class="c1"
         data-cursor-type="phase"
         data-has-errors="false"
         data-testid=""
         tabindex="0"
       >
         <div
-          class="sc-74661f0c-2 jpIcsi"
+          class="c2"
         >
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="0"
             data-cursor="false"
           >
             ​
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="1"
             data-cursor="false"
           >
             V
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="2"
             data-cursor="false"
           >
             a
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="3"
             data-cursor="false"
           >
             l
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="4"
             data-cursor="false"
           >
             u
           </span>
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="5"
             data-cursor="true"
           >
@@ -1396,23 +2828,98 @@ exports[`Input renders \`value\` in component unchanged 1`] = `
 exports[`Input renders basic component unchanged 1`] = `
 {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<body>
     <div>
       <div
-        class="sc-74661f0c-0 bDfjcy"
+        class="c0"
       >
         <div
-          class="sc-74661f0c-1 eUeMxO"
+          class="c1"
           data-cursor-type="phase"
           data-has-errors="false"
           data-testid=""
           tabindex="0"
         >
           <div
-            class="sc-74661f0c-2 jpIcsi"
+            class="c2"
           >
             <span
-              class="sc-74661f0c-4 erhQzS"
+              class="c3"
               data-character-id="0"
               data-cursor="true"
             >
@@ -1423,22 +2930,97 @@ exports[`Input renders basic component unchanged 1`] = `
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  position: relative;
+}
+
+.c1 {
+  outline: 0 none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: text;
+}
+
+.c1:focus {
+  outline: 4px solid rgb(75, 150, 255);
+}
+
+.c1[data-has-errors="true"] {
+  outline: 4px solid rgb(255, 0, 0);
+}
+
+.c2 {
+  display: flex;
+  width: fit-content;
+  min-height: 1rem;
+  min-width: 100%;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.c3 {
+  display: inline-flex;
+  min-width: 5px;
+  border-right: 2px solid transparent;
+  margin-right: -2px;
+}
+
+:focus .c3[data-cursor="true"] {
+  border-right-color: currentColor;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"],
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"],
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-name: jnotVN;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+[data-cursor-type="blink"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: steps(1, end);
+}
+
+[data-cursor-type="smooth"]:focus .c3[data-cursor="true"] {
+  animation-timing-function: cubic-bezier(0, 0.99, 0, 0.98);
+}
+
+[data-cursor-type="phase"]:focus .c3[data-cursor="true"] {
+  animation-duration: 1.5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1:focus {
+    outline: 4px solid rgb(25, 100, 150);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .c1[data-has-errors="true"] {
+    outline: 4px solid rgb(200, 0, 0);
+  }
+}
+
+<div>
     <div
-      class="sc-74661f0c-0 bDfjcy"
+      class="c0"
     >
       <div
-        class="sc-74661f0c-1 eUeMxO"
+        class="c1"
         data-cursor-type="phase"
         data-has-errors="false"
         data-testid=""
         tabindex="0"
       >
         <div
-          class="sc-74661f0c-2 jpIcsi"
+          class="c2"
         >
           <span
-            class="sc-74661f0c-4 erhQzS"
+            class="c3"
             data-character-id="0"
             data-cursor="true"
           >

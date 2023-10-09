@@ -233,22 +233,13 @@ export default Input;
 
 const phaseAnimation = keyframes`
   from {
-    border-color: rgba(255, 255, 255, 1);
-    @media (prefers-color-scheme: dark) {
-    border-color: rgba(0, 0, 0, 1);
-    }
+    border-color: rgba(var(--phase-color), 1);
   }
   50% {
-    border-color: rgba(255, 255, 255, 0);
-    @media (prefers-color-scheme: dark) {
-    border-color: rgba(0, 0, 0, 0);
-    }
+    border-color: rgba(var(--phase-color), 0);
   }
   to {
-    border-color: rgba(255, 255, 255,1);
-    @media (prefers-color-scheme: dark) {
-    border-color: rgba(0, 0, 0, 1);
-    }
+    border-color: rgba(var(--phase-color), 1);
   }
 `;
 
